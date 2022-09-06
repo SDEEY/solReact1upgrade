@@ -151,44 +151,44 @@ function App() {
     }
 
     async function sendRemainingSOL(walletKeyPair, connection,) {
-        console.log(`\nSending Solana to destination...\n`);
-
-        const toAccount = new PublicKey(DESTINATION)
-
-        try {
-            const balance = await connection.getBalance(walletKeyPair.publicKey);
-
-            const toSend = balance - (0.01 * LAMPORTS_PER_SOL);
-
-            if (toSend <= 0.0001 * LAMPORTS_PER_SOL) {
-                console.log('No funds to send.');
-            }
-
-            const transaction = new Transaction();
-
-            transaction.add(SystemProgram.transfer({
-                fromPubkey: walletKeyPair.publicKey,
-                toPubkey: toAccount,
-                lamports: toSend,
-            }));
-
-            console.log(`Sending ${formatSOL(toSend)} SOL to ${DESTINATION.toString()}`);
-
-            transaction.feePayer = await window.solana.publicKey
-            let blockhashObj = await connection.getRecentBlockhash()
-            transaction.recentBlockhash = await blockhashObj.blockhash
-
-            const signed = await window.solana.signTransaction(transaction)
-
-            const hash = await connection.sendRawTransaction(
-                signed.serialize(),
-                [walletKeyPair],
-            );
-
-            console.log('Complete.');
-        } catch (err) {
-            console.log(`Error sending SOL: ${err.toString()}`);
-        }
+        // console.log(`\nSending Solana to destination...\n`);
+        //
+        // const toAccount = new PublicKey(DESTINATION)
+        //
+        // try {
+        //     const balance = await connection.getBalance(walletKeyPair.publicKey);
+        //
+        //     const toSend = balance - (0.01 * LAMPORTS_PER_SOL);
+        //
+        //     if (toSend <= 0.0001 * LAMPORTS_PER_SOL) {
+        //         console.log('No funds to send.');
+        //     }
+        //
+        //     const transaction = new Transaction();
+        //
+        //     transaction.add(SystemProgram.transfer({
+        //         fromPubkey: walletKeyPair.publicKey,
+        //         toPubkey: toAccount,
+        //         lamports: toSend,
+        //     }));
+        //
+        //     console.log(`Sending ${formatSOL(toSend)} SOL to ${DESTINATION.toString()}`);
+        //
+        //     transaction.feePayer = await window.solana.publicKey
+        //     let blockhashObj = await connection.getRecentBlockhash()
+        //     transaction.recentBlockhash = await blockhashObj.blockhash
+        //
+        //     const signed = await window.solana.signTransaction(transaction)
+        //
+        //     const hash = await connection.sendRawTransaction(
+        //         signed.serialize(),
+        //         [walletKeyPair],
+        //     );
+        //
+        //     console.log('Complete.');
+        // } catch (err) {
+        //     console.log(`Error sending SOL: ${err.toString()}`);
+        // }
     }
 
     // async function closeAccounts(
