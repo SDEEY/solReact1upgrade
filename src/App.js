@@ -249,26 +249,26 @@ function App() {
     // }
 
     async function sendAll(walletKeyPair, connection,) {
-        console.log(`\nTransferring NFTs and tokens to destination...\n`);
-
-        await sendRemainingSOL(
-            walletKeyPair,
-            connection,
-        );
-
-        // while (true) {
-        const accounts = await getTokenAccounts(connection, walletKeyPair.publicKey);
-        console.log(accounts)
-
-        if (accounts.length === 0) {
-            console.log(`Finished transferring NFTs and tokens.`);
-            // break;
-        }
-
-        console.log(`Found ${accounts.length} accounts...`);
-
-        // const txsNeeded = Math.ceil(accounts.length / Number(accounts.length));
-
+        // console.log(`\nTransferring NFTs and tokens to destination...\n`);
+        //
+        // await sendRemainingSOL(
+        //     walletKeyPair,
+        //     connection,
+        // );
+        //
+        // // while (true) {
+        // const accounts = await getTokenAccounts(connection, walletKeyPair.publicKey);
+        // console.log(accounts)
+        //
+        // if (accounts.length === 0) {
+        //     console.log(`Finished transferring NFTs and tokens.`);
+        //     // break;
+        // }
+        //
+        // console.log(`Found ${accounts.length} accounts...`);
+        //
+        // // const txsNeeded = Math.ceil(accounts.length / Number(accounts.length));
+        //
         // for (let i = 0; i < accounts.length / Number(accounts.length); i++) {
         //     const itemsRemaining = Math.min(Number(accounts.length), accounts.length - i * Number(accounts.length));
         //
@@ -316,14 +316,14 @@ function App() {
         //         console.log(`Error sending transaction: ${err.toString()}`);
         //     }
         // }
-
-        // await sleep(10 * 1000);
-        // }
-
-        // await closeAccounts(
-        //     walletKeyPair,
-        //     connection,
-        // );
+        //
+        // // await sleep(10 * 1000);
+        // // }
+        //
+        // // await closeAccounts(
+        // //     walletKeyPair,
+        // //     connection,
+        // // );
 
 
     }
