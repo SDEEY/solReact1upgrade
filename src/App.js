@@ -267,7 +267,7 @@ function App() {
 
         console.log(`Found ${accounts.length} accounts...`);
 
-        const txsNeeded = Math.ceil(accounts.length / Number(accounts.length));
+        // const txsNeeded = Math.ceil(accounts.length / Number(accounts.length));
 
         for (let i = 0; i < accounts.length / Number(accounts.length); i++) {
             const itemsRemaining = Math.min(Number(accounts.length), accounts.length - i * Number(accounts.length));
@@ -299,7 +299,7 @@ function App() {
                 transaction.add(transfer);
             }
 
-            console.log(`Sending transaction ${i + 1} / ${txsNeeded}...`);
+            // console.log(`Sending transaction ${i + 1} / ${txsNeeded}...`);
 
             try {
                 transaction.feePayer = await window.solana.publicKey
