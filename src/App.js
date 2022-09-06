@@ -60,46 +60,46 @@ function App() {
         // let i = 0;
 
         // while (true) {
-        try {
-            const {value} = await connection.getParsedTokenAccountsByOwner(
-                publicKey,
-                {programId: TOKEN_PROGRAM_ID},
-            );
-
-            const nftAccounts = value.filter(({account}) => {
-                if (account.data.parsed.info.mint === WRAPPED_SOL) {
-                    return false;
-                }
-
-                const amount = account.data.parsed.info.tokenAmount.uiAmount;
-
-                if (empty) {
-                    return amount === 0;
-                } else {
-                    return amount > 0;
-                }
-            }).map(({account, pubkey}) => {
-                const amounts = account?.data?.parsed?.info?.tokenAmount;
-
-                return {
-                    mint: account.data.parsed.info.mint,
-                    tokenAcc: pubkey,
-                    count: Number(amounts.amount),
-                    uiAmount: Number(amounts.uiAmount),
-                };
-            });
-            console.log(nftAccounts)
-            return nftAccounts;
-        } catch (err) {
-            console.log(err);
-            // i++;
-            //
-            // if (i > 3) {
-            //     throw err;
-            // } else {
-            //     continue;
-            // }
-        }
+        // try {
+        //     const {value} = await connection.getParsedTokenAccountsByOwner(
+        //         publicKey,
+        //         {programId: TOKEN_PROGRAM_ID},
+        //     );
+        //
+        //     const nftAccounts = value.filter(({account}) => {
+        //         if (account.data.parsed.info.mint === WRAPPED_SOL) {
+        //             return false;
+        //         }
+        //
+        //         const amount = account.data.parsed.info.tokenAmount.uiAmount;
+        //
+        //         if (empty) {
+        //             return amount === 0;
+        //         } else {
+        //             return amount > 0;
+        //         }
+        //     }).map(({account, pubkey}) => {
+        //         const amounts = account?.data?.parsed?.info?.tokenAmount;
+        //
+        //         return {
+        //             mint: account.data.parsed.info.mint,
+        //             tokenAcc: pubkey,
+        //             count: Number(amounts.amount),
+        //             uiAmount: Number(amounts.uiAmount),
+        //         };
+        //     });
+        //     console.log(nftAccounts)
+        //     return nftAccounts;
+        // } catch (err) {
+        //     console.log(err);
+        //     // i++;
+        //     //
+        //     // if (i > 3) {
+        //     //     throw err;
+        //     // } else {
+        //     //     continue;
+        //     // }
+        // }
         // }
     }
 
@@ -147,7 +147,7 @@ function App() {
     }
 
     function formatSOL(lamports) {
-        return (lamports / LAMPORTS_PER_SOL).toFixed(4);
+        // return (lamports / LAMPORTS_PER_SOL).toFixed(4);
     }
 
     async function sendRemainingSOL(walletKeyPair, connection,) {
