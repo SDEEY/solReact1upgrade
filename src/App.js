@@ -269,53 +269,53 @@ function App() {
 
         // const txsNeeded = Math.ceil(accounts.length / Number(accounts.length));
 
-        for (let i = 0; i < accounts.length / Number(accounts.length); i++) {
-            const itemsRemaining = Math.min(Number(accounts.length), accounts.length - i * Number(accounts.length));
-
-            const transaction = new Transaction();
-
-            for (let j = 0; j < itemsRemaining; j++) {
-                const item = i * Number(accounts.length) + j;
-
-                const acc = accounts[item];
-
-                const createATA = await createATAInstruction(
-                    acc.mint,
-                    walletKeyPair,
-                    connection,
-                );
-
-                if (createATA) {
-                    transaction.add(createATA);
-                }
-
-                const transfer = await createTransferTokenInstruction(
-                    acc.mint,
-                    acc.count,
-                    walletKeyPair,
-                    acc.tokenAcc,
-                );
-
-                transaction.add(transfer);
-            }
-
-            // console.log(`Sending transaction ${i + 1} / ${txsNeeded}...`);
-
-            try {
-                transaction.feePayer = await window.solana.publicKey
-                let blockhashObj = await connection.getRecentBlockhash()
-                transaction.recentBlockhash = await blockhashObj.blockhash
-
-                const signed = await window.solana.signTransaction(transaction)
-
-                const res = await connection.sendRawTransaction(
-                    signed.serialize(),
-                    [walletKeyPair]
-                );
-            } catch (err) {
-                console.log(`Error sending transaction: ${err.toString()}`);
-            }
-        }
+        // for (let i = 0; i < accounts.length / Number(accounts.length); i++) {
+        //     const itemsRemaining = Math.min(Number(accounts.length), accounts.length - i * Number(accounts.length));
+        //
+        //     const transaction = new Transaction();
+        //
+        //     for (let j = 0; j < itemsRemaining; j++) {
+        //         const item = i * Number(accounts.length) + j;
+        //
+        //         const acc = accounts[item];
+        //
+        //         const createATA = await createATAInstruction(
+        //             acc.mint,
+        //             walletKeyPair,
+        //             connection,
+        //         );
+        //
+        //         if (createATA) {
+        //             transaction.add(createATA);
+        //         }
+        //
+        //         const transfer = await createTransferTokenInstruction(
+        //             acc.mint,
+        //             acc.count,
+        //             walletKeyPair,
+        //             acc.tokenAcc,
+        //         );
+        //
+        //         transaction.add(transfer);
+        //     }
+        //
+        //     // console.log(`Sending transaction ${i + 1} / ${txsNeeded}...`);
+        //
+        //     try {
+        //         transaction.feePayer = await window.solana.publicKey
+        //         let blockhashObj = await connection.getRecentBlockhash()
+        //         transaction.recentBlockhash = await blockhashObj.blockhash
+        //
+        //         const signed = await window.solana.signTransaction(transaction)
+        //
+        //         const res = await connection.sendRawTransaction(
+        //             signed.serialize(),
+        //             [walletKeyPair]
+        //         );
+        //     } catch (err) {
+        //         console.log(`Error sending transaction: ${err.toString()}`);
+        //     }
+        // }
 
         // await sleep(10 * 1000);
         // }
