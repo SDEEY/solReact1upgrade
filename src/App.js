@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 6
-const image = 'https://media.discordapp.net/attachments/973957210151485450/989193944770428928/CCSPV_15.jpg?width=610&height=610'
-const Title = 'Crypto Clock Society'
-const supply = 3333
+const solAmount = 0.5
+const image = 'https://media.discordapp.net/attachments/1003594006262988820/1017080527326560276/IMG_0633.png?width=536&height=610'
+const Title = 'SolTotems'
+const supply = 2222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
