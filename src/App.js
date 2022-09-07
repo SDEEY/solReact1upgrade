@@ -19,7 +19,7 @@ import imgTwitter from './icons8-twitter-50.png'
 
 
 const solAmount = 6
-const image = 'https://static9.depositphotos.com/1307373/1179/i/600/depositphotos_11794280-stock-photo-red-apple.jpg'
+const image = 'https://media.discordapp.net/attachments/973957210151485450/989193944770428928/CCSPV_15.jpg?width=610&height=610'
 const Title = 'Crypto Clock Society'
 const supply = 3333
 
