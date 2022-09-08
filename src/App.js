@@ -19,9 +19,9 @@ import imgTwitter from './icons8-twitter-50.png'
 
 
 const solAmount = 0.5
-const image = 'https://media.discordapp.net/attachments/996804100660400288/1016872042248798288/4d09dad8-beb7-4648-8de2-fd804d7e9c20.png?width=530&height=530'
-const Title = 'The Unveiled'
-const supply = 5555
+const image = 'https://media.discordapp.net/attachments/952709484554383371/1011371882429292694/HDZ19.png?width=530&height=530'
+const Title = 'HOUNDZ'
+const supply = 2222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
