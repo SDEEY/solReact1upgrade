@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 2.5
-const image = 'https://howrare.is/drop_logos/5892_L98HyHuc.jpg'
-const Title = 'Coinfra Labs'
-const supply = 999
+const solAmount = 1.8
+const image = 'https://media.discordapp.net/attachments/979671900156493824/1016452531997642772/LEGENDARY_ARCHER.png?width=530&height=530'
+const Title = 'SENSEI LABS'
+const supply = 4440
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
