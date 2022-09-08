@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.045
-const image = 'https://media.discordapp.net/attachments/942525313643085894/1016465021359902791/55.png?width=610&height=610'
-const Title = 'Bearzuki'
-const supply = 4444
+const solAmount = 0.5
+const image = 'https://media.discordapp.net/attachments/996804100660400288/1016872042248798288/4d09dad8-beb7-4648-8de2-fd804d7e9c20.png?width=530&height=530'
+const Title = 'The Unveiled'
+const supply = 5555
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
