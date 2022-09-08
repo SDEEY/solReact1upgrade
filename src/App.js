@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.5
-const image = 'https://media.discordapp.net/attachments/952709484554383371/1011371882429292694/HDZ19.png?width=530&height=530'
-const Title = 'HOUNDZ'
-const supply = 2222
+const solAmount = 2.4
+const image = 'https://media.discordapp.net/attachments/951420244562411580/1017361970690797578/6.png?width=610&height=610'
+const Title = 'Coinfra Labs'
+const supply = 3125
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
