@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.28
-const image = 'https://howrare.is/drop_logos/5877_eQNwad14.jpg'
-const Title = 'INFKTED'
-const supply = 3333
+const solAmount = 2
+const image = 'https://pbs.twimg.com/media/FcN82D9X0AMFOiZ?format=jpg&name=large'
+const Title = 'Crowdsurf'
+const supply = 2556
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
