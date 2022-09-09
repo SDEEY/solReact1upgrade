@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.06
-const image = 'https://howrare.is/drop_logos/5891_yML3Z4tS.jpg'
-const Title = 'Nema'
-const supply = 6666
+const solAmount = 0.092
+const image = 'https://media.discordapp.net/attachments/993982929543901284/1017213987118661632/king.jpeg?width=610&height=610'
+const Title = 'Medieval sol Gamblers'
+const supply = 666
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
