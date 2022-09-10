@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 2
-const image = 'https://media.discordapp.net/attachments/955903977956966451/1013219020176109568/unknown.png?width=610&height=610'
-const Title = 'Crazy Catz'
-const supply = 8888
+const solAmount = 2.5
+const image = 'https://howrare.is/drop_logos/5909_YEITkoh9_400x400.jpg'
+const Title = 'Rad Trip Bunny'
+const supply = 4444
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
