@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.55
-const image = 'https://pbs.twimg.com/profile_images/1534022380439613446/uWGKeWkE_400x400.jpg'
-const Title = 'Hyper Drifter'
-const supply = 2376
+const solAmount = 1.5
+const image = 'https://pbs.twimg.com/profile_images/1567152535030431745/dt3Bij3E_400x400.jpg'
+const Title = 'MetaRun'
+const supply = 5000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
