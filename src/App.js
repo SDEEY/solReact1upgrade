@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.15
-const image = 'https://media.discordapp.net/attachments/1015089629793370162/1017808055280340992/524.jpeg'
-const Title = 'Dope Bears'
-const supply = 1111
+const solAmount = 0.2
+const image = 'https://pbs.twimg.com/profile_images/1539965747602288641/nehrogmK_400x400.jpg'
+const Title = 'CrocoLabs'
+const supply = 888
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
