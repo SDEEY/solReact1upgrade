@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0
-const image = 'https://pbs.twimg.com/media/Fb89gwLaQAAxE2q?format=png&name=900x900'
-const Title = 'The Misfits NFT'
-const supply = 473
+const solAmount = 0.66
+const image = 'https://pbs.twimg.com/profile_images/1527509884127911945/l77f94LX_400x400.jpg'
+const Title = 'High Bear Nation'
+const supply = 962
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
