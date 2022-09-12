@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.7
-const image = 'https://pbs.twimg.com/profile_images/1566450861567623170/rOUui4NK_400x400.jpg'
-const Title = 'Solana Vegas Club'
-const supply = 4970
+const solAmount = 1.5
+const image = 'https://pbs.twimg.com/profile_images/1562857696017190912/JvpIDRby_400x400.jpg'
+const Title = 'DeentraDAO'
+const supply = 100
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
