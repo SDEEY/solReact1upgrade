@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 1.5
-const image = 'https://pbs.twimg.com/profile_images/1562857696017190912/JvpIDRby_400x400.jpg'
-const Title = 'DeentraDAO'
-const supply = 100
+const solAmount = 1.25
+const image = 'https://images-ext-2.discordapp.net/external/GrMP1ptQctXIR36-TemFNAaAKhmZZKayFZobtndID2E/%3Falt%3Dmedia%26token%3D373ca3cf-d386-49fb-bb92-1a86d8a5a2bc/https/firebasestorage.googleapis.com/v0/b/launch-my-nft.appspot.com/o/Users%252FHSqXktzCpMz4jhVEzPaqVJYpkyKJAspw6RQdFNrDg8vR%252FCollections%252FeR6xzUJ98WeP3OiVQIgK%252Fcover'
+const Title = 'Cutie Friends'
+const supply = 1500
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
