@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0
-const image = 'https://pbs.twimg.com/profile_images/1555228250624098305/RnJkeZ3n_400x400.jpg'
-const Title = 'Bluechip Traders Alpha'
-const supply = 2138
+const solAmount = 2
+const image = 'https://pbs.twimg.com/profile_images/1557633572177166336/3gGat8Ew_400x400.jpg'
+const Title = 'ANYBODIES'
+const supply = 500
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
