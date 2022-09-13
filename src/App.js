@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.099
-const image = 'https://pbs.twimg.com/media/Fb-6vp9X0AYtl2R?format=png&name=medium'
-const Title = 'Pixelated lab'
-const supply = 472
+const solAmount = 1.3
+const image = 'https://pbs.twimg.com/profile_images/1562794545045176320/DdfejN8K_400x400.jpg'
+const Title = 'Akali'
+const supply = 625
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
