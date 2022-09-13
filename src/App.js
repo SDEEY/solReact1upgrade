@@ -18,9 +18,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 1.3
-const image = 'https://pbs.twimg.com/profile_images/1562794545045176320/DdfejN8K_400x400.jpg'
-const Title = 'Akali'
+const solAmount = 0.9
+const image = 'https://media.discordapp.net/attachments/1003321792083021894/1018843629252513865/965.png?width=530&height=530'
+const Title = 'CandyLaunch'
 const supply = 625
 
 document.title = Title
