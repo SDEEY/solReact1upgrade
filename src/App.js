@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0
-const image = 'https://pbs.twimg.com/media/FcZroJUXoAUyWqE?format=jpg&name=large'
-const Title = 'GMers NFT'
-const supply = 25000
+const solAmount = 0.099
+const image = 'https://pbs.twimg.com/media/Fb-6vp9X0AYtl2R?format=png&name=medium'
+const Title = 'Pixelated lab'
+const supply = 472
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
