@@ -21,7 +21,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const solAmount = 0
 const image = 'https://pbs.twimg.com/media/FcZroJUXoAUyWqE?format=jpg&name=large'
 const Title = 'GMers NFT'
-const supply = 50000
+const supply = 25000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
