@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.2
-const image = 'https://pbs.twimg.com/profile_images/1554778110498930694/_eTNaoq__400x400.jpg'
-const Title = 'The Minions'
-const supply = 1578
+const solAmount = 0.1
+const image = 'https://howrare.is/drop_logos/5879_NjF2szUV.jpg'
+const Title = 'Kazoku DAO'
+const supply = 300
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
