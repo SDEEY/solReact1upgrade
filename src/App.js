@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.1
-const image = 'https://howrare.is/drop_logos/5879_NjF2szUV.jpg'
-const Title = 'Kazoku DAO'
-const supply = 300
+const solAmount = 0.777
+const image = 'https://howrare.is/drop_logos/5923_SkWxQpqQ.jpg'
+const Title = 'DoodleSol'
+const supply = 10000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
