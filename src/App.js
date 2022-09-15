@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 1.55
-const image = 'https://pbs.twimg.com/profile_images/1535847247455342592/gujtBM2E_400x400.jpg'
-const Title = 'DefiHoodDAO'
-const supply = 2184
+const solAmount = 0.19
+const image = 'https://howrare.is/drop_logos/5368_S9e58w0q.jpg'
+const Title = 'SolPaintClub Book 3'
+const supply = 777
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
