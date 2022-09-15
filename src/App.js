@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = 0.3
-const image = 'https://static9.depositphotos.com/1307373/1179/i/600/depositphotos_11794280-stock-photo-red-apple.jpg'
-const Title = 'Dragon Elements'
-const supply = 1110
+const solAmount = 2
+const image = 'https://pbs.twimg.com/profile_images/1520819550610202624/brH_mx-a_400x400.png'
+const Title = 'Motearn'
+const supply = 3210
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
