@@ -18,10 +18,10 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 
-const solAmount = 0.2
-const image = 'https://pbs.twimg.com/profile_images/1493109093569282050/zZWFRD9v_400x400.jpg'
-const Title = 'WidiLand'
-const supply = 1150
+const solAmount = 2
+const image = 'https://pbs.twimg.com/profile_images/1538899716368281601/m7x5EWn4_400x400.jpg'
+const Title = 'HedgeFundBabies'
+const supply = 1000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
