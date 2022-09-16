@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = 0.4
-const image = 'https://pbs.twimg.com/profile_images/1542458408279937024/_kDPaqS6_400x400.jpg'
-const Title = 'Doomsday Mummies'
-const supply = 1972
+const solAmount = 0.15
+const image = 'https://pbs.twimg.com/profile_images/1557731937837776897/O-b88IRe_400x400.jpg'
+const Title = 'Beer Bunnies'
+const supply = 1212
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
