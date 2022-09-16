@@ -6,7 +6,7 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = 0.5 / 1
+const solAmount = '0.5 / 1'
 const image = 'https://media.discordapp.net/attachments/935534692487266324/1016348721417572503/2920.png?width=472&height=590'
 const Title = 'sugardaddiesNFT'
 const supply = 294
