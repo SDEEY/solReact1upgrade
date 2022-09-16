@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = 1
-const image = 'https://howrare.is/drop_logos/5924_YJZXHYeu.jpg'
-const Title = 'Duck Goes Places'
-const supply = 777
+const solAmount = 0.4
+const image = 'https://pbs.twimg.com/profile_images/1542458408279937024/_kDPaqS6_400x400.jpg'
+const Title = 'Doomsday Mummies'
+const supply = 1972
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
