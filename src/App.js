@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1565862693470445569/WVLWI2KO_400x400.jpg'
-const Title = 'PUMP DAO'
-const supply = 371
+const solAmount = '0.8'
+const image = 'https://pbs.twimg.com/profile_images/1567607180903301122/lbswCFi-_400x400.jpg'
+const Title = 'L1 Ape’s'
+const supply = 774
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
