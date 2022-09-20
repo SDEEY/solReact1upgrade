@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1'
-const image = 'https://media.discordapp.net/attachments/976774887538577411/1021793759735848981/SP8.gif?width=590&height=590'
-const Title = 'Busy Boars'
-const supply = 100
+const solAmount = '0'
+const image = 'https://pbs.twimg.com/profile_images/1549715033000513536/6_Ek1yY5_400x400.jpg'
+const Title = 'Sukoshi'
+const supply = 5555
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
