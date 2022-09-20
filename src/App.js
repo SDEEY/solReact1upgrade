@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.213'
-const image = 'https://media.discordapp.net/attachments/1011828742349394031/1021823471715623003/IMG_4270.png?width=588&height=590'
-const Title = 'ABCD Casino'
-const supply = 999
+const solAmount = '1'
+const image = 'https://media.discordapp.net/attachments/976774887538577411/1021793759735848981/SP8.gif?width=590&height=590'
+const Title = 'Busy Boars'
+const supply = 100
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
