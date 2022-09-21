@@ -6,9 +6,9 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.05 / 0.1'
-const image = 'https://media.discordapp.net/attachments/999730221869715566/1005125401472929832/134.jpg?width=590&height=590'
-const Title = 'BURRO DAO'
+const solAmount = '1.4'
+const image = 'https://media.discordapp.net/attachments/986247338878193684/1008768746552307903/IMG-20220815-WA0002.jpg?width=590&height=590'
+const Title = 'THE WAGERS'
 const supply = 1725
 
 document.title = Title
