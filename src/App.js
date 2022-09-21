@@ -9,7 +9,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const solAmount = '0.029'
 const image = 'https://media.discordapp.net/attachments/1019238201208086529/1022122187425075230/5-min.png?width=590&height=590'
 const Title = 'Wandiles'
-const supply = 2963
+const supply = 1963
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
