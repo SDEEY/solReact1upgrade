@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1476922839865430018/pUYlxfdd_400x400.jpg'
-const Title = 'Pixeledfaces'
-const supply = 333
+const solAmount = '0.07'
+const image = 'https://images-ext-1.discordapp.net/external/1FXUvCnJbKJ5rUdZ0jJCEjCgVeC5WgdGnp6O7UklFC8/%3Falt%3Dmedia%26token%3Dc5f9d4bc-cbfc-47fb-80bc-af0c3ddebec2/https/firebasestorage.googleapis.com/v0/b/launch-my-nft.appspot.com/o/Users%252F8MJJvX77Z95ecPqCLCX9WPC8E8UxqFWSYw2cPYGyyspz%252FCollections%252Fx4J8WDHwL4XUz97eKkQp%252Fcover'
+const Title = 'Nuked Rats NFT'
+const supply = 2156
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
