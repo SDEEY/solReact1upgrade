@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.029'
-const image = 'https://media.discordapp.net/attachments/1019238201208086529/1022122187425075230/5-min.png?width=590&height=590'
-const Title = 'Wandiles'
-const supply = 1963
+const solAmount = '0.2'
+const image = 'https://pbs.twimg.com/profile_images/1558433746721939456/CgOslGSM_400x400.jpg'
+const Title = 'DeKeepers'
+const supply = 300
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
