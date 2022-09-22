@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0 / 0.05 / 0.1'
-const image = 'https://pbs.twimg.com/profile_images/1569419087540895744/a3SShMWX_400x400.jpg'
-const Title = 'Dedoodle'
-const supply = 555
+const solAmount = '0.3'
+const image = 'https://media.discordapp.net/attachments/1013263674963660830/1013266264183017482/1.jpg?width=590&height=590'
+const Title = 'Heads | WAC'
+const supply = 592
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
