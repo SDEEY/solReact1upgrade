@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.5 / 2'
-const image = 'https://nftsolana.io/wp-content/uploads/2022/09/amphibian_world.jpg'
-const Title = "Project Amphibian"
-const supply = 3333
+const solAmount = '0.45 - 0.9'
+const image = 'https://media.discordapp.net/attachments/1014094035692040234/1019711483036323891/01-7.png?width=590&height=590'
+const Title = "Mutant Goats Club"
+const supply = 3781
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
