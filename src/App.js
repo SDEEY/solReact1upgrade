@@ -6,9 +6,9 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0 / 0.1'
-const image = 'https://howrare.is/drop_logos/5944_Pa9PH15P.jpg'
-const Title = "The Queen's Corgis"
+const solAmount = '1.5 / 2'
+const image = 'https://nftsolana.io/wp-content/uploads/2022/09/amphibian_world.jpg'
+const Title = "Project Amphibian"
 const supply = 3333
 
 document.title = Title
