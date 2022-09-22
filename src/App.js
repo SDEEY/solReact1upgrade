@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.4'
-const image = 'https://media.discordapp.net/attachments/986247338878193684/1008768746552307903/IMG-20220815-WA0002.jpg?width=590&height=590'
-const Title = 'THE WAGERS'
-const supply = 1725
+const solAmount = '0 / 0.05 / 0.1'
+const image = 'https://pbs.twimg.com/profile_images/1569419087540895744/a3SShMWX_400x400.jpg'
+const Title = 'Dedoodle'
+const supply = 555
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
