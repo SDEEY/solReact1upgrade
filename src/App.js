@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.45 - 0.9'
-const image = 'https://media.discordapp.net/attachments/1014094035692040234/1019711483036323891/01-7.png?width=590&height=590'
-const Title = "Mutant Goats Club"
-const supply = 3781
+const solAmount = '0'
+const image = 'https://pbs.twimg.com/profile_images/1560970502327377927/2wEmy4Ag_400x400.jpg'
+const Title = "Anarchy Dog"
+const supply = 2000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
