@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.3'
-const image = 'https://media.discordapp.net/attachments/1013263674963660830/1013266264183017482/1.jpg?width=590&height=590'
-const Title = 'Heads | WAC'
-const supply = 592
+const solAmount = '0.065'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/savageskeletons_pfp_1662667479035.jpeg'
+const Title = 'Savage Skeletons'
+const supply = 333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
