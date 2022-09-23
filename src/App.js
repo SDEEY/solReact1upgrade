@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '2'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://bafybeiaavnkidpnalm4v6z3m3mgwksyzsz3bq3a4wgyoaz3g3gvkj26fhu.ipfs.dweb.link/'
-const Title = "Outcast Academy"
-const supply = 2783
+const solAmount = '0.9'
+const image = 'https://media.discordapp.net/attachments/990553632699191309/1022864118253891604/6D914926-BB8E-407B-B7F1-312FB2797D35.jpg?width=590&height=590'
+const Title = "Spazz Metallic"
+const supply = 1764
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
