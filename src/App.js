@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1560970502327377927/2wEmy4Ag_400x400.jpg'
-const Title = "Anarchy Dog"
-const supply = 2000
+const solAmount = '2'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://bafybeiaavnkidpnalm4v6z3m3mgwksyzsz3bq3a4wgyoaz3g3gvkj26fhu.ipfs.dweb.link/'
+const Title = "Outcast Academy"
+const supply = 2783
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
