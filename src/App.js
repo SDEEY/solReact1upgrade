@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.15'
-const image = 'https://media.discordapp.net/attachments/977222098365866054/1022529285237518436/128.png?width=590&height=590'
-const Title = "Degen Tribe Hyenas"
-const supply = 3333
+const solAmount = '0.069'
+const image = 'https://media.discordapp.net/attachments/1002924608556634112/1021394858864283688/degoddess55.png?width=590&height=590'
+const Title = "De Goddess"
+const supply = 6666
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
