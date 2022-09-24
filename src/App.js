@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.35 / 0.5'
-const image = 'https://media.discordapp.net/attachments/1016514649262391346/1022865174119583754/Juk.jpeg?width=614&height=589'
-const Title = "TheWings Pass"
-const supply = 888
+const solAmount = '0.1 / 0.15'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/theswordsmen_pfp_1663700155721.jpeg'
+const Title = "The SwordsMen"
+const supply = 666
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
