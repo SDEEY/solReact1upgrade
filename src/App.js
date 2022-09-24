@@ -9,7 +9,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const solAmount = '0.069'
 const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/youngapecrew_pfp_1662240009870.png'
 const Title = "Young Ape Crew"
-const supply = 3333
+const supply = 1248
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
