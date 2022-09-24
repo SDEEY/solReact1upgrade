@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.1 / 0.15'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/theswordsmen_pfp_1663700155721.jpeg'
-const Title = "The SwordsMen"
-const supply = 666
+const solAmount = '0.1'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://arweave.net/ydIc17ZJRszxK-vBTSc1dJjpeMW1xyFlIh5y3uEC3jY'
+const Title = "DINO"
+const supply = 2065
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
