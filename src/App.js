@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.069 / 0.1'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/pp1_pfp_1663562737116.png'
-const Title = "Pride Power"
-const supply = 5555
+const solAmount = '0'
+const image = 'https://pbs.twimg.com/profile_images/1556958319222333442/bOU7lQK6_400x400.jpg'
+const Title = "KakoDemons"
+const supply = 777
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
