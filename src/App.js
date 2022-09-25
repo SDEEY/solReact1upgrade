@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0 / 0.025'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/shepz_pfp_1663980796991.png'
-const Title = "Shepz"
-const supply = 4444
+const solAmount = '0'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/degenlucifers_pfp_1661515375583.png'
+const Title = "Degen Lucifers"
+const supply = 333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
