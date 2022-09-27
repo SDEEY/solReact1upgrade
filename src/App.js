@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.3 / 1.5'
-const image = 'https://howrare.is/drop_logos/5942_5bqfUX2m.jpg'
-const Title = "Foxtopia | HAKU"
-const supply = 500
+const solAmount = '0.35'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/mutantgoatsclub_pfp_1662941731825.png'
+const Title = "Mutant Goats Club"
+const supply = 462
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
