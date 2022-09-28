@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/monke_eternal_pfp_1664142826118.png'
-const Title = "Monke Eternal"
-const supply = 222
+const solAmount = '0.099'
+const image = 'https://howrare.is/drop_logos/5990_BUUlZA63.jpg'
+const Title = "UTILITY LION"
+const supply = 999
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
