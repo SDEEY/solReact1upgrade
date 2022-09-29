@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.33 / 0.44 / 0.55'
-const image = 'https://pbs.twimg.com/profile_images/1559423976140525568/J8McXoEe_400x400.jpg'
-const Title = "Pixelworx"
-const supply = 1283
+const solAmount = '0.12 / 0.15'
+const image = 'https://media.discordapp.net/attachments/1019543564000165960/1025047601600548965/Untitled_Artwork.gif?width=610&height=610'
+const Title = "MI$FITS"
+const supply = 3155
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
