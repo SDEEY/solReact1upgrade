@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/famousapes_pfp_1656809680724.png'
-const Title = "Red Carpet Apes: Famous Apes"
-const supply = 111
+const solAmount = '0.33 / 0.44 / 0.55'
+const image = 'https://pbs.twimg.com/profile_images/1559423976140525568/J8McXoEe_400x400.jpg'
+const Title = "Pixelworx"
+const supply = 1283
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
