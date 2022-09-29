@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/goldenyoots_pfp_1663252924434.png'
-const Title = "Bonus Hunter"
-const supply = 222
+const solAmount = '0.06'
+const image = 'https://pbs.twimg.com/profile_images/1574431112306331648/J3H6Jg7a_400x400.jpg'
+const Title = "Bubbleworld"
+const supply = 326
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
