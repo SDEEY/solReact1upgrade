@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.77'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/apesart_pfp_1663626097009.png'
-const Title = "apes by the artnft factory"
-const supply = 999
+const solAmount = '0.03 / 0.06'
+const image = 'https://howrare.is/drop_logos/5888_tfNSa_gD.jpg'
+const Title = "Solana Homes"
+const supply = 1111
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
