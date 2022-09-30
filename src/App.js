@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.1'
-const image = 'https://media.discordapp.net/attachments/989878251000311828/1015289282518319274/unknown.png?width=590&height=610'
-const Title = "The Axolotls"
-const supply = 1111
+const solAmount = '0'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/wanonnft_pfp_1658285902518.png'
+const Title = "Wanon's Empire"
+const supply = 111
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
