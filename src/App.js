@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.03 / 0.06'
-const image = 'https://howrare.is/drop_logos/5888_tfNSa_gD.jpg'
-const Title = "Solana Homes"
-const supply = 1111
+const solAmount = '1'
+const image = 'https://pbs.twimg.com/profile_images/1564427883715899392/16pGne8G_400x400.jpg'
+const Title = "Monarch Labs"
+const supply = 865
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
