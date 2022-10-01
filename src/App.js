@@ -9,7 +9,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const solAmount = '1'
 const image = 'https://pbs.twimg.com/profile_images/1564427883715899392/16pGne8G_400x400.jpg'
 const Title = "Monarch Labs"
-const supply = 865
+const supply = 375
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
