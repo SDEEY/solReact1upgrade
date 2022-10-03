@@ -9,7 +9,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const solAmount = '0.85 / 0.95 / 1.2'
 const image = 'https://pbs.twimg.com/profile_images/1510935931091619845/XWAYD8t5_400x400.jpg'
 const Title = "KALISTEN"
-const supply = 219
+const supply = 87
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
