@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.75 / 1'
-const image = 'https://howrare.is/drop_logos/5982_RiQgu2Kp.jpg'
-const Title = "Final Humans"
-const supply = 6000
+const solAmount = '0.85 / 0.95 / 1.2'
+const image = 'https://pbs.twimg.com/profile_images/1510935931091619845/XWAYD8t5_400x400.jpg'
+const Title = "KALISTEN"
+const supply = 219
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
