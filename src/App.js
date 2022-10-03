@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.7'
-const image = 'https://howrare.is/drop_logos/5918_hp4luq0T.jpg'
-const Title = "High School Witches"
-const supply = 777
+const solAmount = '0.75 / 1'
+const image = 'https://howrare.is/drop_logos/5982_RiQgu2Kp.jpg'
+const Title = "Final Humans"
+const supply = 6000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
