@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.2'
-const image = 'https://nftsolana.io/wp-content/uploads/2022/08/1.001.jpeg'
-const Title = "Rumble In The Jungle"
-const supply = 3900
+const solAmount = '0.7'
+const image = 'https://howrare.is/drop_logos/5918_hp4luq0T.jpg'
+const Title = "High School Witches"
+const supply = 777
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
