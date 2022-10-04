@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.49'
-const image = 'https://media.discordapp.net/attachments/936057915889041414/1026938860200022016/20221004_083823413_iOS.png?width=590&height=590'
-const Title = "Moobaa Tribe"
-const supply = 100
+const solAmount = '0.98 / 3'
+const image = 'https://pbs.twimg.com/profile_images/1556730537745825794/dw_vL0J6_400x400.jpg'
+const Title = "upordown"
+const supply = 5000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
