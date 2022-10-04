@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.85 / 0.95 / 1.2'
-const image = 'https://pbs.twimg.com/profile_images/1510935931091619845/XWAYD8t5_400x400.jpg'
-const Title = "KALISTEN"
-const supply = 87
+const solAmount = '1'
+const image = 'https://media.discordapp.net/attachments/980538738918711326/1010569282050068500/193.gif?width=590&height=590'
+const Title = "Snuggles NFT"
+const supply = 1500
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
