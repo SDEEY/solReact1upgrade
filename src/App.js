@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.98 / 3'
-const image = 'https://pbs.twimg.com/profile_images/1556730537745825794/dw_vL0J6_400x400.jpg'
-const Title = "upordown"
-const supply = 5000
+const solAmount = '0 / 0.069 / 0.089'
+const image = 'https://media.discordapp.net/attachments/1023631508340228247/1024653602108751882/Fire_Demon.png?width=590&height=590'
+const Title = "Lamps Demon's"
+const supply = 141
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
