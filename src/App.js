@@ -9,7 +9,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const solAmount = '0 / 0.069 / 0.089'
 const image = 'https://media.discordapp.net/attachments/1023631508340228247/1024653602108751882/Fire_Demon.png?width=590&height=590'
 const Title = "Lamps Demon's"
-const supply = 141
+const supply = 142
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
