@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '2'
-const image = 'https://media.discordapp.net/attachments/992409456098938962/1026999458329792512/unknown.png?width=590&height=590'
-const Title = "Anthros"
-const supply = 8888
+const solAmount = '0.1 / 0.2'
+const image = 'https://media.discordapp.net/attachments/1015286776811769856/1026171547494396024/photo_2022-10-02_23-04-50.jpg?width=590&height=590'
+const Title = "GOBsNFT"
+const supply = 1181
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
