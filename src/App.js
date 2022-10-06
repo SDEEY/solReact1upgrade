@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1436837757217738752/lcbBH9qI_400x400.jpg'
-const Title = "THE EYEDEAS"
-const supply = 371
+const solAmount = '0.25 / 0.30 / 0.35'
+const image = 'https://media.discordapp.net/attachments/1022651083073540106/1026994020964114462/992.png?width=590&height=590'
+const Title = "Broke Boys Club"
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
