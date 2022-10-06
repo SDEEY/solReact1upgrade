@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.25 / 0.30 / 0.35'
-const image = 'https://media.discordapp.net/attachments/1022651083073540106/1026994020964114462/992.png?width=590&height=590'
-const Title = "Broke Boys Club"
-const supply = 971
+const solAmount = '0'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/kolemozterclub_pfp_1655686980132.png'
+const Title = "KoleMozter Club"
+const supply = 222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
