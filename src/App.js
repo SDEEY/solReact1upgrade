@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1'
-const image = 'https://pbs.twimg.com/profile_images/1515034634286895104/Jmejt66D_400x400.jpg'
-const Title = "Turtle Island NFT"
-const supply = 2141
+const solAmount = '2 / 3'
+const image = 'https://pbs.twimg.com/profile_images/1537417344594718720/LzvDD_22_400x400.jpg'
+const Title = "MetaJewelers"
+const supply = 1500
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
