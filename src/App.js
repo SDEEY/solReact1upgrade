@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.069'
-const image = 'https://pbs.twimg.com/profile_images/1572160955030671360/soHoA2kI_400x400.jpg'
-const Title = "Armored Doge"
-const supply = 700
+const solAmount = '0.069 / 0.079 / 0.089'
+const image = 'https://media.discordapp.net/attachments/1002200918755909642/1007805112372166706/unknown.png?width=590&height=590'
+const Title = "Kasaflip"
+const supply = 371
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
