@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/kolemozterclub_pfp_1655686980132.png'
-const Title = "KoleMozter Club"
-const supply = 222
+const solAmount = '0.069'
+const image = 'https://pbs.twimg.com/profile_images/1572160955030671360/soHoA2kI_400x400.jpg'
+const Title = "Armored Doge"
+const supply = 700
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
