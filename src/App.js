@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.3 / 0.35 / 0.359'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/thescrapyard_pfp_1663546801799.jpeg'
-const Title = "The Scrapyard"
-const supply = 721
+const solAmount = '1.25'
+const image = 'https://media.discordapp.net/attachments/999797812659228844/1026529368706666597/SPOILER_D1AAE733-638B-4E6D-9919-010F405C2BBA.png?width=590&height=590'
+const Title = "TTM Capital NFT"
+const supply = 3333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
