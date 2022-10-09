@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.25'
-const image = 'https://media.discordapp.net/attachments/999797812659228844/1026529368706666597/SPOILER_D1AAE733-638B-4E6D-9919-010F405C2BBA.png?width=590&height=590'
-const Title = "TTM Capital NFT"
-const supply = 3333
+const solAmount = '0'
+const image = 'https://media.discordapp.net/attachments/928908095680294963/1027672820899123310/50.png?width=590&height=590'
+const Title = "Pixel No N3ko"
+const supply = 271
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
