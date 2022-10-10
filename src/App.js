@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.5'
-const image = 'https://media.discordapp.net/attachments/1018546089403621446/1026829432826101761/Fdse9q6aEAAi62h.jpeg'
-const Title = "Otherworld Owls"
-const supply = 5555
+const solAmount = '0.01'
+const image = 'https://pbs.twimg.com/profile_images/1526977641802346496/hQxKUwTh_400x400.jpg'
+const Title = "Merchants"
+const supply = 222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
