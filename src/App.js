@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://howrare.is/drop_logos/6051_2qyzLWBD.jpg'
-const Title = "Crypto Bears Academy"
-const supply = 333
+const solAmount = '0.044'
+const image = 'https://media.discordapp.net/attachments/986970840828633188/1012079021124759634/IMG_chinese.jpg?width=442&height=589'
+const Title = "PRIME EAGLES SOCIETY"
+const supply = 4444
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
