@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.044'
-const image = 'https://media.discordapp.net/attachments/986970840828633188/1012079021124759634/IMG_chinese.jpg?width=442&height=589'
-const Title = "PRIME EAGLES SOCIETY"
-const supply = 4444
+const solAmount = '1.5'
+const image = 'https://pbs.twimg.com/profile_images/1554950603419164673/__aHmEfm_400x400.jpg'
+const Title = "Xcorp"
+const supply = 3000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
