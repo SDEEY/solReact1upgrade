@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.5'
-const image = 'https://pbs.twimg.com/profile_images/1554950603419164673/__aHmEfm_400x400.jpg'
-const Title = "Xcorp"
-const supply = 3000
+const solAmount = '0.33'
+const image = 'https://howrare.is/drop_logos/5349_qaMi8Y-s.jpg'
+const Title = "SOL Killer Bunnies"
+const supply = 6666
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
