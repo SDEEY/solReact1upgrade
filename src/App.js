@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.33'
-const image = 'https://howrare.is/drop_logos/5349_qaMi8Y-s.jpg'
-const Title = "SOL Killer Bunnies"
-const supply = 6666
+const solAmount = '0.1'
+const image = 'https://media.discordapp.net/attachments/1002272729543753741/1021737952772108328/1025.png?width=610&height=610'
+const Title = "Carcalypse"
+const supply = 6660
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
