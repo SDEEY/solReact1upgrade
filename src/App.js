@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.2 / 0.3'
-const image = 'https://images-ext-1.discordapp.net/external/-S2n-RNK6GUxAc_NzLiCe8KXiqTAzmBWkvQIUBatVaU/%3Falt%3Dmedia%26token%3Dea147441-1988-4731-9fc9-0a3f2999378d/https/firebasestorage.googleapis.com/v0/b/launch-my-nft.appspot.com/o/Users%252F3B6X7NGwdc1WnGGDKZsR6Zrdexix7vjdBkGNGGk2aEkJ%252FCollections%252FKEqkiqh569OOts6yldBY%252Fcover?width=610&height=610'
-const Title = "COSMIC KIDDOS"
-const supply = 3333
+const solAmount = '0.049'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/werewolflegends_pfp_1654145783941.png'
+const Title = "Werewolf Legends"
+const supply = 5555
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
