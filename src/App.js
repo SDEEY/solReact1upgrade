@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.1 OG / 0.125 Whitelist / 0.15 Public'
-const image = 'https://media.discordapp.net/attachments/1019807982873231412/1029864714043392131/IMG_8601.jpg?width=610&height=610'
-const Title = "Splatter Kids"
-const supply = 2871
+const solAmount = '0.15 / 0.25'
+const image = 'https://media.discordapp.net/attachments/936192078218666034/1030419699013537813/RIP.png'
+const Title = "Immortals"
+const supply = 3333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
