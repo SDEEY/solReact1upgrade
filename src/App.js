@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.15 / 0.25'
-const image = 'https://media.discordapp.net/attachments/936192078218666034/1030419699013537813/RIP.png'
-const Title = "Immortals"
-const supply = 3333
+const solAmount = '0.015 / 0.025'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/happy_birds_pfp_1663674067190.png'
+const Title = "HAPPY BIRDS"
+const supply = 333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
