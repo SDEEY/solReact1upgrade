@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.049'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/werewolflegends_pfp_1654145783941.png'
-const Title = "Werewolf Legends"
-const supply = 5555
+const solAmount = '0.1 OG / 0.125 Whitelist / 0.15 Public'
+const image = 'https://media.discordapp.net/attachments/1019807982873231412/1029864714043392131/IMG_8601.jpg?width=610&height=610'
+const Title = "Splatter Kids"
+const supply = 2871
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
