@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.033 / 0.066'
-const image = 'https://pbs.twimg.com/profile_images/1572292649167781888/2Y8_6RPj_400x400.jpg'
-const Title = "ARTIFICIALLY INSPIRED"
-const supply = 666
+const solAmount = '2'
+const image = 'https://pbs.twimg.com/profile_images/1574100891094994944/63UsX6CP_400x400.jpg'
+const Title = "MXXN WRLD"
+const supply = 5555
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
