@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '2'
-const image = 'https://pbs.twimg.com/profile_images/1574100891094994944/63UsX6CP_400x400.jpg'
-const Title = "MXXN WRLD"
-const supply = 5555
+const solAmount = '0.35'
+const image = 'https://media.discordapp.net/attachments/1006362973897490514/1030495946863300708/IMG_5138.jpg?width=610&height=610'
+const Title = "Solana Nerds"
+const supply = 4500
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
