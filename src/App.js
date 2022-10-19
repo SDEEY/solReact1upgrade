@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.35'
-const image = 'https://media.discordapp.net/attachments/1006362973897490514/1030495946863300708/IMG_5138.jpg?width=610&height=610'
-const Title = "Solana Nerds"
-const supply = 4500
+const solAmount = '0'
+const image = 'https://bafybeicw2zzfq4hg5q2h2s6aj4l6ec7uasg4z25ikfkc5vgpw2avx6zibu.ipfs.nftstorage.link/'
+const Title = "Mike Tyson's Iron Pigeons"
+const supply = 4521
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
