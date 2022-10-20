@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1581633744431190018/m5C3jnWi_400x400.jpg'
-const Title = "YOMI"
-const supply = 5000
+const solAmount = '1 / 1.35'
+const image = 'https://images-ext-1.discordapp.net/external/2nf0QylpL1aszhd5XTS5EbHj4PxrEEqyYX2yCqQNPg0/https/pbs.twimg.com/media/FfgEt6tWYAAmN0U.jpg?width=610&height=610'
+const Title = "EpicSloths inc."
+const supply = 10000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
