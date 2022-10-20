@@ -7,9 +7,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const solAmount = '0'
-const image = 'https://bafybeicw2zzfq4hg5q2h2s6aj4l6ec7uasg4z25ikfkc5vgpw2avx6zibu.ipfs.nftstorage.link/'
-const Title = "Mike Tyson's Iron Pigeons"
-const supply = 4521
+const image = 'https://pbs.twimg.com/profile_images/1581633744431190018/m5C3jnWi_400x400.jpg'
+const Title = "YOMI"
+const supply = 5000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
