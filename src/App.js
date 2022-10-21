@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.2'
-const image = 'https://media.discordapp.net/attachments/1027746626405662768/1031287617112772688/unknown.png?width=610&height=610'
-const Title = "Muntana Cats"
-const supply = 333
+const solAmount = '0.049 / 0.079'
+const image = 'https://media.discordapp.net/attachments/1030842493304045589/1031201896939135076/14-33-46-0xa32ba8de9315a01179d001cc165cb5fa98f7747d933f90d3461e4cd8385d717e.jpg?width=610&height=610'
+const Title = "Clarence Mood"
+const supply = 666
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
