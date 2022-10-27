@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.088'
-const image = 'https://media.discordapp.net/attachments/990826546900107344/1031423853139873832/101.png?width=610&height=610'
-const Title = "Mod Cats Club"
-const supply = 8888
+const solAmount = '1.66'
+const image = 'https://pbs.twimg.com/profile_images/1569427275568844803/XZBGdGq7_400x400.jpg'
+const Title = "HOLLOWS!"
+const supply = 666
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
