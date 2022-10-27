@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.5'
-const image = 'https://media.discordapp.net/attachments/1012530735753724014/1034753117906026577/unknown.png?width=610&height=610'
-const Title = "DUST CITY"
-const supply = 1981
+const solAmount = '0.088'
+const image = 'https://media.discordapp.net/attachments/990826546900107344/1031423853139873832/101.png?width=610&height=610'
+const Title = "Mod Cats Club"
+const supply = 8888
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
