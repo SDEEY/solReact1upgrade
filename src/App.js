@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.29'
-const image = 'https://pbs.twimg.com/profile_images/1567982571279028224/Ju-0kfSi_400x400.jpg'
-const Title = "Furry Orcs"
-const supply = 2222
+const solAmount = '0 / 0.079'
+const image = 'https://media.discordapp.net/attachments/1029701368891580477/1030067336776003614/px-BKHD1goOpc5SERsIf7PHuhQ8Muo-nZFHk0PE5cmNeVGWo3WrpzO1k3ztSy1e09zWUiDyAAQA-49AxQXECaQI0zjSAirEikhS2KHLaw.gif?width=610&height=610'
+const Title = "Mutinous Turtles"
+const supply = 222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
