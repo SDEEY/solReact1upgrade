@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.6 / 0.7 / 0.8'
-const image = 'https://media.discordapp.net/attachments/972500332875776062/1032809121306652692/SUNRISE_1.png?width=610&height=610'
-const Title = "The Meka Race"
-const supply = 1971
+const solAmount = '1.29'
+const image = 'https://pbs.twimg.com/profile_images/1567982571279028224/Ju-0kfSi_400x400.jpg'
+const Title = "Furry Orcs"
+const supply = 2222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
