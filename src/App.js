@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0 / 0.079'
-const image = 'https://media.discordapp.net/attachments/1029701368891580477/1030067336776003614/px-BKHD1goOpc5SERsIf7PHuhQ8Muo-nZFHk0PE5cmNeVGWo3WrpzO1k3ztSy1e09zWUiDyAAQA-49AxQXECaQI0zjSAirEikhS2KHLaw.gif?width=610&height=610'
-const Title = "Mutinous Turtles"
-const supply = 222
+const solAmount = '2.22'
+const image = 'https://media.discordapp.net/attachments/895849015575461888/1035610355197562930/Jack_Skellington_wip01_ani.gif'
+const Title = "AGE of SAM"
+const supply = 280
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
