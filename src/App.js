@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.49'
-const image = 'https://media.discordapp.net/attachments/1014301095453020160/1035940450797883442/2.webp?width=610&height=610'
-const Title = "Oracles"
-const supply = 3333
+const solAmount = '0 / 0.25'
+const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/smcc_pfp_1659984405465.jpeg'
+const Title = "Sol Master Chess Club"
+const supply = 4999
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
