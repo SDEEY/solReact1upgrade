@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0 / 0.69'
-const image = 'https://images-ext-2.discordapp.net/external/gqStQKigxyRUWm7IR8N4AVome_ijZdWVX6d_6iDo8AE/%3Falt%3Dmedia%26token%3Dc22f93ea-6b7d-4d03-bc8a-4ba8988ca5bf/https/firebasestorage.googleapis.com/v0/b/launch-my-nft.appspot.com/o/Users%252F98r38xzPRuaLiAqSnv1WTXKjnkEHe8FM3GHzMNLuPtYD%252FCollections%252F9WPnva0SM1RssEJPYRsT%252Fcover?width=610&height=610'
-const Title = "Cool Buddyz"
-const supply = 3333
+const solAmount = '0.5'
+const image = 'https://pbs.twimg.com/profile_images/1568640334543872000/SGkdnR6D_400x400.jpg'
+const Title = "Lotto Burritos"
+const supply = 331
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
