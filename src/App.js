@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.1'
-const image = 'https://img-cdn.magiceden.dev/rs:fill:640:640:0:0/plain/https://arweave.net/CJunHHBRpDxvhTj_0O2Cnq1u8pHgCp6CBYwwhWyOJXE'
-const Title = "UNDERDOGS"
-const supply = 1000
+const solAmount = '1.75 / 2 / 2.25'
+const image = 'https://media.discordapp.net/attachments/983996101000560671/1029644213668818974/617aead0-5623-4785-b60c-25f81eb84431.jpg?width=610&height=610'
+const Title = "Neckless Neighbors"
+const supply = 3271
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
