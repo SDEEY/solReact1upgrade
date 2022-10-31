@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.5 / 1'
-const image = 'https://pbs.twimg.com/profile_images/1554409633485205504/SOq6nE3s_400x400.jpg'
-const Title = "Facade"
-const supply = 971
+const solAmount = '0.55'
+const image = 'https://media.discordapp.net/attachments/944314139734589540/1032371126724198500/Ikarusu.png?width=610&height=610'
+const Title = "Shinopets"
+const supply = 555
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
