@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.55'
-const image = 'https://media.discordapp.net/attachments/944314139734589540/1032371126724198500/Ikarusu.png?width=610&height=610'
-const Title = "Shinopets"
-const supply = 555
+const solAmount = '1'
+const image = 'https://howrare.is/drop_logos/6012_lrY1_E77.jpg'
+const Title = "Little Bloody Friends"
+const supply = 727
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
