@@ -6,9 +6,9 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1'
-const image = 'https://howrare.is/drop_logos/6012_lrY1_E77.jpg'
-const Title = "Little Bloody Friends"
+const solAmount = ' 0 / 0.07 / 0.1'
+const image = 'https://media.discordapp.net/attachments/1020387125117603871/1035694836034043924/21_2.png?width=610&height=610'
+const Title = "FELINE FOX"
 const supply = 727
 
 document.title = Title
