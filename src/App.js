@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.69 / 0.99'
-const image = 'https://pbs.twimg.com/profile_images/1584015047264989184/De1lC0dQ_400x400.jpg'
-const Title = "Rocker Nation"
-const supply = 1327
+const solAmount = '0'
+const image = 'https://howrare.is/drop_logos/6066_Uss2Dtse_400x400.jpg'
+const Title = "SolStars"
+const supply = 864
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
