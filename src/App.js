@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://howrare.is/drop_logos/6066_Uss2Dtse_400x400.jpg'
-const Title = "SolStars"
-const supply = 864
+const solAmount = '1 / 1.2'
+const image = 'https://pbs.twimg.com/profile_images/1582118383964807169/UbTQxp7u_400x400.jpg'
+const Title = "Whale Supply NFT"
+const supply = 222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
