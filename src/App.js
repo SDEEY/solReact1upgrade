@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1 / 1.2'
-const image = 'https://pbs.twimg.com/profile_images/1582118383964807169/UbTQxp7u_400x400.jpg'
-const Title = "Whale Supply NFT"
-const supply = 222
+const solAmount = '0'
+const image = 'https://media.discordapp.net/attachments/965698449783808130/1034663554466459708/PNG_image-BC6644C2E728-1.png?width=610&height=610'
+const Title = "REVO"
+const supply = 400
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
