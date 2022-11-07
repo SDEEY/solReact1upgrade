@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.75'
-const image = 'https://media.discordapp.net/attachments/988570197503901766/1034604696322715728/image.gif?width=610&height=610'
-const Title = "CryptoTitans"
-const supply = 1971
+const solAmount = '1.2'
+const image = 'https://media.discordapp.net/attachments/1002291002964447243/1023579379265179728/193.png?width=610&height=610'
+const Title = "WAIFUZ"
+const supply = 6969
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
