@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.2'
-const image = 'https://media.discordapp.net/attachments/1002291002964447243/1023579379265179728/193.png?width=610&height=610'
-const Title = "WAIFUZ"
-const supply = 6969
+const solAmount = '0.42 / 0.52'
+const image = 'https://media.discordapp.net/attachments/988736873897807893/1017474008066830356/IMG_2159.png?width=610&height=610'
+const Title = "THE DAWGS"
+const supply = 4500
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
