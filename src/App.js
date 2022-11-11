@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.049'
-const image = 'https://media.discordapp.net/attachments/1028262375066976337/1038416752280875138/dopemanke9.png'
-const Title = "MANKEY BUSINESS"
-const supply = 2222
+const solAmount = '0.5'
+const image = 'https://media.discordapp.net/attachments/1006925085451493397/1040278452458233926/unknown.png'
+const Title = "Rich Moggy"
+const supply = 3333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
