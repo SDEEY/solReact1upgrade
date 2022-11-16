@@ -6,9 +6,9 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.9'
-const image = 'https://howrare.is/drop_logos/5839_NWyFV1EL.jpg'
-const Title = "GO BULLS"
+const solAmount = '0.1 / 0.2'
+const image = 'https://media.discordapp.net/attachments/976396192726515737/1030467756405043270/7718.png?width=610&height=610'
+const Title = "ALPHΑ WOLVES"
 const supply = 7777
 
 document.title = Title
