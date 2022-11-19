@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '6'
-const image = 'https://media.discordapp.net/attachments/971868988961349642/1040302903652536390/1154.png?width=610&height=610'
-const Title = "M00NSHINE_K9S"
-const supply = 3333
+const solAmount = '0'
+const image = 'https://pbs.twimg.com/profile_images/1583217391303106560/vc6hcxTA_400x400.jpg'
+const Title = "QATAR STARS"
+const supply = 333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
