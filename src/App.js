@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '3'
-const image = 'https://pbs.twimg.com/profile_images/1521110199972642817/SF1v6HVF_400x400.jpg'
-const Title = "MIZUSHI DRAGONS CLUB"
-const supply = 555
+const solAmount = '1'
+const image = 'https://pbs.twimg.com/profile_images/1516903218546049024/RQYPxCqp_400x400.jpg'
+const Title = "The Henchmen"
+const supply = 999
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
