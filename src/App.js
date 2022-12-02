@@ -7,9 +7,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const solAmount = '1'
-const image = 'https://pbs.twimg.com/profile_images/1516903218546049024/RQYPxCqp_400x400.jpg'
-const Title = "The Henchmen"
-const supply = 999
+const image = 'https://media.discordapp.net/attachments/863156439303454755/1048241388162138173/EC29E235-B9A9-4B93-9F6B-C8EAFCEB6663.png?width=610&height=610'
+const Title = "PLATO"
+const supply = 1271
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
