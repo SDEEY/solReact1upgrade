@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1'
-const image = 'https://media.discordapp.net/attachments/863156439303454755/1048241388162138173/EC29E235-B9A9-4B93-9F6B-C8EAFCEB6663.png?width=610&height=610'
-const Title = "PLATO"
-const supply = 1271
+const solAmount = '0.49 / 0.61'
+const image = 'https://media.discordapp.net/attachments/1030197923406950430/1046754020599017562/just_flip.png?width=610&height=610'
+const Title = "JUSTFLIP"
+const supply = 161
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
