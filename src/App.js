@@ -9,7 +9,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const solAmount = '0.25'
 const image = 'https://media.discordapp.net/attachments/1002610420651143199/1050038649783332904/deff_giff_comp.gif?width=610&height=610'
 const Title = "FUGIAT"
-const supply = 971
+const supply = 1000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
