@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.25'
-const image = 'https://media.discordapp.net/attachments/1002610420651143199/1050038649783332904/deff_giff_comp.gif?width=610&height=610'
-const Title = "FUGIAT"
-const supply = 371
+const solAmount = '4'
+const image = 'https://pbs.twimg.com/profile_images/1494890405644541955/grzj2v_2_400x400.jpg'
+const Title = "DEAD KING SOCIETY"
+const supply = 20
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
