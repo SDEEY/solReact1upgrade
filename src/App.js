@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '4'
-const image = 'https://pbs.twimg.com/profile_images/1494890405644541955/grzj2v_2_400x400.jpg'
-const Title = "DEAD KING SOCIETY"
-const supply = 20
+const solAmount = '1'
+const image = 'https://pbs.twimg.com/profile_images/1571784176931676162/PJWGLwGL_400x400.jpg'
+const Title = "MALEFICUS ORIGIN"
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
