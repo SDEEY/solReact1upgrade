@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '5.2'
-const image = 'https://pbs.twimg.com/profile_images/1574824877198118915/71GyiIwU_400x400.jpg'
-const Title = "WISE WHALES"
-const supply = 2750
+const solAmount = '8.5'
+const image = 'https://bafybeidzsht5g3rtb2crlgildg3hrbt5mtuiw6eiakxj5ckhftvrqyjvbm.ipfs.nftstorage.link/'
+const Title = "TOMORROWLAND.NFT"
+const supply = 471
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
