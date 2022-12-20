@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://media.discordapp.net/attachments/1028646574848487495/1037372372065472532/293.jpeg?width=587&height=587'
-const Title = "ENOKIDAO"
-const supply = 71
+const solAmount = '0,6'
+const image = 'https://pbs.twimg.com/profile_images/1525119412411502592/Q6nbvjUd_400x400.png'
+const Title = "THE FRACTURE"
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
