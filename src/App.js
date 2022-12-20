@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0,6'
-const image = 'https://pbs.twimg.com/profile_images/1525119412411502592/Q6nbvjUd_400x400.png'
-const Title = "THE FRACTURE"
-const supply = 971
+const solAmount = '5'
+const image = 'https://pbs.twimg.com/profile_images/1568321713825370112/7h3LE8zf_400x400.jpg'
+const Title = "ROVEWORLDAPP"
+const supply = 1971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
