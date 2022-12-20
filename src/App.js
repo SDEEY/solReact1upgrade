@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.2'
-const image = 'https://media.discordapp.net/attachments/961077840768532480/1051901257620660285/1.png?width=587&height=587'
-const Title = "GEEXOLOTLS"
-const supply = 971
+const solAmount = '0'
+const image = 'https://media.discordapp.net/attachments/1028646574848487495/1037372372065472532/293.jpeg?width=587&height=587'
+const Title = "ENOKIDAO"
+const supply = 71
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
