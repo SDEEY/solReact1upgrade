@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '5'
-const image = 'https://pbs.twimg.com/profile_images/1568321713825370112/7h3LE8zf_400x400.jpg'
-const Title = "ROVEWORLDAPP"
-const supply = 1971
+const solAmount = '0 / 0.2'
+const image = 'https://pbs.twimg.com/profile_images/1598242999712059393/ihF_6Fzi_400x400.jpg'
+const Title = "MOON ROLL"
+const supply = 127
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
