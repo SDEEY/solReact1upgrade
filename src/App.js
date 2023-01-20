@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1613850665209532417/kSJiBP80_400x400.jpg'
-const Title = "PIXEL DUDES BY SOLEDDARITY"
-const supply = 4000
+const solAmount = '0.55 / 0.7 / 0.85'
+const image = 'https://pbs.twimg.com/profile_images/1579191769094189056/63dK2orX_400x400.jpg'
+const Title = "FILTH LABS"
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
