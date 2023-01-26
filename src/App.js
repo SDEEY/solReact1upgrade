@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.5'
-const image = 'https://media.discordapp.net/attachments/1064142843041566810/1064280057352298576/FmJfwu8WQAA7IAQ.jpg?width=587&height=587'
-const Title = "SKULLBOTS"
-const supply = 1000
+const solAmount = '0'
+const image = 'https://pbs.twimg.com/profile_images/1486793650801557505/_-ig7wT6_400x400.png'
+const Title = "ROYALE CHESS"
+const supply = 20000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
