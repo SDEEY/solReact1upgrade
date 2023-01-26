@@ -6,9 +6,9 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '3'
-const image = 'https://media.discordapp.net/attachments/964175784375902239/1067511993935855687/Marshies_Preview_12.png?width=587&height=587'
-const Title = "MARSHIES"
+const solAmount = '0.1'
+const image = 'https://media.discordapp.net/attachments/1063805822066491424/1063830987898900480/warrior_2.png?width=587&height=587'
+const Title = "WARRIOR FIRE MAN"
 const supply = 129
 
 document.title = Title
