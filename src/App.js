@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1486793650801557505/_-ig7wT6_400x400.png'
-const Title = "ROYALE CHESS"
-const supply = 20000
+const solAmount = '3'
+const image = 'https://pbs.twimg.com/profile_images/1486476568314667008/qo9cmiJ6_400x400.jpg'
+const Title = "THE R◎UNDIES"
+const supply = 2222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
