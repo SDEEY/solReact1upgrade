@@ -6,9 +6,9 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '3'
-const image = 'https://pbs.twimg.com/profile_images/1609973992194023424/02wW9Rnk_400x400.jpg'
-const Title = "GUUDIES.IO"
+const solAmount = '0 / 1 / 2'
+const image = 'https://media.discordapp.net/attachments/1017542984591478785/1070811036917178508/GIF2.gif?width=581&height=586'
+const Title = "ONLY WOLVES"
 const supply = 671
 
 document.title = Title
