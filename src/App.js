@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0 / 1 / 2'
-const image = 'https://media.discordapp.net/attachments/1017542984591478785/1070811036917178508/GIF2.gif?width=581&height=586'
-const Title = "ONLY WOLVES"
-const supply = 671
+const solAmount = '0'
+const image = 'https://pbs.twimg.com/profile_images/1614637532293246978/RG9Xg9DW_400x400.jpg'
+const Title = "NXT GEN TRADERS | NGT"
+const supply = 1000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
