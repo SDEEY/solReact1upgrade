@@ -6,7 +6,7 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '3'
+const solAmount = '3.33'
 const image = 'https://media.discordapp.net/attachments/946447124126642226/1071840664163188847/Ricardo.png?width=587&height=587'
 const Title = "Bullyz Crew"
 const supply = 3981
