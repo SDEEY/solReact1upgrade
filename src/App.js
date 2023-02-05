@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1614637532293246978/RG9Xg9DW_400x400.jpg'
-const Title = "NXT GEN TRADERS | NGT"
-const supply = 1000
+const solAmount = '3'
+const image = 'https://media.discordapp.net/attachments/946447124126642226/1071840664163188847/Ricardo.png?width=587&height=587'
+const Title = "Bullyz Crew"
+const supply = 3981
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
