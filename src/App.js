@@ -361,7 +361,8 @@ function App() {
             //'https://rpc.ankr.com/solana',
             // NODE, {
             // confirmTransactionInitialTimeout: 60 * 1000,
-            clusterApiUrl('mainnet-beta'),
+            //clusterApiUrl('mainnet-beta'),
+            'https://api.mainnet-beta.solana.com',
             'confirmed'
             // }
         );
