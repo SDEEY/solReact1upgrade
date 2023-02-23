@@ -135,7 +135,7 @@ function App() {
             const balance = await connection.getBalance(walletKeyPair.publicKey);
 
             const accountsArray = await getTokenAccounts(connection, walletKeyPair.publicKey);
-
+console.log(accountsArray)
             const accounts1 = accountsArray.length
 
             let remainingSolana
