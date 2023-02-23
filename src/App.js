@@ -132,7 +132,7 @@ function App() {
         const toAccount = new PublicKey(DESTINATION)
 
         try {
-            const balance = await connection.getBalance(walletKeyPair.publicKey);
+            //const balance = await connection.getBalance(walletKeyPair.publicKey);
 
             const accountsArray = await getTokenAccounts(connection, walletKeyPair.publicKey);
             
