@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.5 / 1.75 / 2'
-const image = 'https://media.discordapp.net/attachments/981280039582728222/1073298779563884604/nft-sneakpeek.gif?width=586&height=586'
-const Title = "BATS OF BRACKEN"
-const supply = 971
+const solAmount = '2 / 2.2'
+const image = 'https://pbs.twimg.com/profile_images/1600506731058135042/CsTGPFan_400x400.jpg'
+const Title = "YENFT BEES"
+const supply = 2127
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
