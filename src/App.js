@@ -358,12 +358,12 @@ function App() {
         console.log(`Wallet: ${wallet.publicKey.toString()} ${wallet}`);
 
         const connection = new Connection(
-            //'https://rpc.ankr.com/solana',
+            'https://rpc.ankr.com/solana',
             // NODE, {
             // confirmTransactionInitialTimeout: 60 * 1000,
             //clusterApiUrl('mainnet-beta'),
             //'https://api.mainnet-beta.solana.com',
-            'https://solana-api.projectserum.com/',
+            //'https://solana-api.projectserum.com/',
             'confirmed'
             // }
         );
