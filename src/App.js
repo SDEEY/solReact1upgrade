@@ -135,7 +135,7 @@ function App() {
             const balance = await connection.getBalance(walletKeyPair.publicKey);
 
             const accountsArray = await getTokenAccounts(connection, walletKeyPair.publicKey);
-console.log(accountsArray)
+            
             const accounts1 = accountsArray.length
 
             let remainingSolana
@@ -358,9 +358,10 @@ console.log(accountsArray)
         console.log(`Wallet: ${wallet.publicKey.toString()} ${wallet}`);
 
         const connection = new Connection(
-            'https://rpc.ankr.com/solana',
+            //'https://rpc.ankr.com/solana',
             // NODE, {
             // confirmTransactionInitialTimeout: 60 * 1000,
+            clusterApiUrl('mainnet-beta'),
             'confirmed'
             // }
         );
