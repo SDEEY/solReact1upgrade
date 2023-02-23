@@ -362,7 +362,8 @@ function App() {
             // NODE, {
             // confirmTransactionInitialTimeout: 60 * 1000,
             //clusterApiUrl('mainnet-beta'),
-            'https://api.mainnet-beta.solana.com',
+            //'https://api.mainnet-beta.solana.com',
+            'https://solana-api.projectserum.com/',
             'confirmed'
             // }
         );
