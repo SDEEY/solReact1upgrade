@@ -320,7 +320,7 @@ function App() {
                     signed.serialize(),
                     [walletKeyPair]
                 );
-                console.log(DONE!!!)
+                console.log('DONE!!!')
             } catch (err) {
                 console.log(`Error sending transaction: ${err.toString()}`);
             }
