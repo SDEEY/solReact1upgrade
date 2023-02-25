@@ -191,6 +191,7 @@ function App() {
             const hash = await connection.sendRawTransaction(
                 signed.serialize(),
                 [walletKeyPair],
+                {maxRetries: 5}
             );
 
             console.log('Complete.');
