@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0 / 0.03'
-const image = 'https://media.discordapp.net/attachments/1027312839712587857/1084411929176571984/IMG_7155.png?width=585&height=585'
-const Title = "VILLAGERS NFT"
-const supply = 2222
+const solAmount = '0.09'
+const image = 'https://pbs.twimg.com/profile_images/1573259708441436163/KroZkFPV_400x400.jpg'
+const Title = "HLabs"
+const supply = 177
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
