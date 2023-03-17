@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1633762119970615297/_AmsNhzJ_400x400.jpg'
-const Title = "Spooky Times"
-const supply = 369
+const solAmount = '2'
+const image = 'https://pbs.twimg.com/profile_images/1613202626371272704/L8k730HD_400x400.jpg'
+const Title = "kingdom tales"
+const supply = 750
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
