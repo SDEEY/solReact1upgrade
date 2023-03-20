@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.15'
-const image = 'https://firebasestorage.googleapis.com/v0/b/launch-my-nft.appspot.com/o/Users%2F8xMquCtUxg3bSn7ba6Rb7jf39okdPED2Gg6XNodKh7oF%2FCollections%2F8U9RojB9NO6z5DlSzdRN%2Fcover?alt=media&token=88145249-4ab9-45cc-bb0a-64c7656aeb8b'
-const Title = "Imperial Roman Army"
-const supply = 571
+const solAmount = '0.2'
+const image = 'https://pbs.twimg.com/profile_images/1547220069469544448/bQ3xCsj5_400x400.jpg'
+const Title = "SOLTYPE"
+const supply = 333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
