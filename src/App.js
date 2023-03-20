@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '2'
-const image = 'https://media.discordapp.net/attachments/1038828611488190590/1079976589200216125/lord_moofun_royal.jpg?width=610&height=610'
-const Title = "KULT DOLCE"
-const supply = 2222
+const solAmount = '0.15'
+const image = 'https://firebasestorage.googleapis.com/v0/b/launch-my-nft.appspot.com/o/Users%2F8xMquCtUxg3bSn7ba6Rb7jf39okdPED2Gg6XNodKh7oF%2FCollections%2F8U9RojB9NO6z5DlSzdRN%2Fcover?alt=media&token=88145249-4ab9-45cc-bb0a-64c7656aeb8b'
+const Title = "Imperial Roman Army"
+const supply = 571
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
