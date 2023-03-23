@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1 / 1.5 / 3'
-const image = 'https://pbs.twimg.com/profile_images/1618259398500950016/qJvtmUTe_400x400.jpg'
-const Title = "Big Boss Gang"
-const supply = 711
+const solAmount = '10'
+const image = 'https://pbs.twimg.com/profile_images/1535279096921346049/pZScSrk9_400x400.jpg'
+const Title = "Code Canvas"
+const supply = 131
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
