@@ -7,7 +7,7 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const solAmount = '2'
-const image = 'hhttps://pbs.twimg.com/profile_images/1624208404326813696/LA1rsWR1_400x400.jpg'
+const image = 'https://pbs.twimg.com/profile_images/1624208404326813696/LA1rsWR1_400x400.jpg'
 const Title = "SPORTING LABS"
 const supply = 18
 
