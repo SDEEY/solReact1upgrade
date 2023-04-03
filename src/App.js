@@ -6,7 +6,7 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0.269'
+const solAmount = '0.269'
 const image = 'https://pbs.twimg.com/profile_images/1585028096486514706/K_7fQj2e_400x400.jpg'
 const Title = 'Tribe Dragonz'
 const supply = 199
