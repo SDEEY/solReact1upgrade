@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '2.2'
-const image = 'https://pbs.twimg.com/profile_images/1627846496254103553/4U54Z5rC_400x400.jpg'
-const Title = 'Moai Madness Legion'
-const supply = 755
+const solAmount = '1.5'
+const image = 'https://pbs.twimg.com/profile_images/1585640677164974083/_amAzvcb_400x400.png'
+const Title = 'Vagabond Valley'
+const supply = 70
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
