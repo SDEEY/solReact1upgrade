@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.269'
-const image = 'https://pbs.twimg.com/profile_images/1585028096486514706/K_7fQj2e_400x400.jpg'
-const Title = 'Tribe Dragonz'
-const supply = 199
+const solAmount = '0.1'
+const image = 'https://media.discordapp.net/attachments/1086722458071077015/1091899116906352720/Sans_titre_95.png?width=586&height=586'
+const Title = 'ROBI XANA'
+const supply = 222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
