@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '2'
-const image = 'https://pbs.twimg.com/profile_images/1617075152717582338/As04M9Rk_400x400.jpg'
-const Title = 'Gepard Inc'
-const supply = 333
+const solAmount = '1.5'
+const image = 'https://pbs.twimg.com/profile_images/1618778099797082112/oiGAHhl3_400x400.jpg'
+const Title = 'Kaimana DAO'
+const supply = 5540
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
