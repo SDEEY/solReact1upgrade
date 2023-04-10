@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.5'
-const image = 'https://pbs.twimg.com/profile_images/1618778099797082112/oiGAHhl3_400x400.jpg'
-const Title = 'Kaimana DAO'
-const supply = 5540
+const solAmount = '3'
+const image = 'https://pbs.twimg.com/profile_images/1643607106195451904/bSxPxOSc_400x400.jpg'
+const Title = 'DeFi Land'
+const supply = 577
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
