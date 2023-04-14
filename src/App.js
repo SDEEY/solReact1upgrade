@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.1'
-const image = 'https://pbs.twimg.com/profile_images/1644871722842169344/tT0mcAmv_400x400.png'
-const Title = 'Robi Xana family'
-const supply = 222
+const solAmount = '3'
+const image = 'https://media.discordapp.net/attachments/1007970866782552065/1081095024953004072/Zinch_Im.png?width=586&height=586'
+const Title = 'CAT FIGHT'
+const supply = 6842
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
