@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.3 / 0.4 / 0.5'
-const image = 'https://pbs.twimg.com/profile_images/1635779783463141376/FIRtcFsE_400x400.jpg'
-const Title = 'Mad Bears Club'
-const supply = 108
+const solAmount = '3'
+const image = 'https://media.discordapp.net/attachments/1045198420501082192/1099802149229174844/fidelion__1__13_.png?width=590&height=590'
+const Title = 'Fidelion / SECRET COLLECTION'
+const supply = 100
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
