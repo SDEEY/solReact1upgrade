@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '5'
-const image = 'https://pbs.twimg.com/profile_images/1629988094958006272/NibBcPcZ_400x400.jpg'
-const Title = 'raposa'
-const supply = 100
+const solAmount = '2.5'
+const image = 'https://pbs.twimg.com/profile_images/1600500972530372610/l3_UwGFv_400x400.jpg'
+const Title = 'Nimbus Art Collective'
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
