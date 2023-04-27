@@ -7,9 +7,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1645519789324992515/n5j3vct9_400x400.jpg'
+const image = 'https://pbs.twimg.com/profile_images/1629988094958006272/NibBcPcZ_400x400.jpg'
 const Title = 'Icelolly Labz'
-const supply = 5555
+const supply = 100
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
