@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.69'
-const image = 'https://pbs.twimg.com/profile_images/1628672125522386944/93lINTFU_400x400.jpg'
-const Title = 'Greedy Geckoz'
-const supply = 3500
+const solAmount = '1.2'
+const image = 'https://pbs.twimg.com/profile_images/1635300620524740612/f0gQw6gk_400x400.jpg'
+const Title = 'Zorath.'
+const supply = 3131
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
