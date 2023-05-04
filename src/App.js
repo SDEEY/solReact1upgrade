@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.7'
-const image = 'https://pbs.twimg.com/profile_images/1597865710620917761/BRcZjgFF_400x400.jpg'
-const Title = 'Jason OjOtris'
-const supply = 1088
+const solAmount = '0 / 0.085'
+const image = 'https://pbs.twimg.com/profile_images/1648010069559091225/jv8-bhCC_400x400.jpg'
+const Title = 'YUUGEN'
+const supply = 271
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
