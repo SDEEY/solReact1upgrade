@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0 / 0.085'
-const image = 'https://pbs.twimg.com/profile_images/1648010069559091225/jv8-bhCC_400x400.jpg'
-const Title = 'YUUGEN'
-const supply = 271
+const solAmount = '4.55'
+const image = 'https://pbs.twimg.com/media/FvSnrEnaYAoJhSE?format=jpg&name=4096x4096'
+const Title = 'COODE'
+const supply = 5666
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
