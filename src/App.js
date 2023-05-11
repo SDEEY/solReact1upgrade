@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '2'
-const image = 'https://pbs.twimg.com/profile_images/1641509347678117896/GlwIjOvO_400x400.jpg'
-const Title = 'Deep Surfer'
-const supply = 1588
+const solAmount = '2.25'
+const image = 'https://pbs.twimg.com/profile_images/1638615560727437315/y2yeDi7v_400x400.jpg'
+const Title = 'Meta Drive & Rolling Bones'
+const supply = 1000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
