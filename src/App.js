@@ -6,9 +6,9 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '3.5'
-const image = 'https://pbs.twimg.com/profile_images/1587057836688871427/e2Imyv2R_400x400.jpg'
-const Title = 'Wasta Corp'
+const solAmount = '0 / 0.5 / 1'
+const image = 'https://pbs.twimg.com/profile_images/1578408103296761857/HOXaSZul_400x400.jpg'
+const Title = 'EASY ELVES'
 const supply = 1700
 
 document.title = Title
