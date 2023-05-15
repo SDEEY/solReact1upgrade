@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.1'
-const image = 'https://pbs.twimg.com/profile_images/1652751483803168770/vBZOiWcS_400x400.jpg'
-const Title = 'KAICITY 正 義'
-const supply = 11
+const solAmount = '2'
+const image = 'https://pbs.twimg.com/profile_images/1625166443640942593/b0Jc3au4_400x400.jpg'
+const Title = 'BUNNiEZ'
+const supply = 5500
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
