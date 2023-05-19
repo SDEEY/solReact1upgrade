@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.8/1'
-const image = 'https://pbs.twimg.com/profile_images/1585407767342624768/wNdqVClR_400x400.jpg'
-const Title = 'Knuckle Bunny Death Squad'
-const supply = 3333
+const solAmount = '0/0.5/1'
+const image = 'https://pbs.twimg.com/profile_images/1578408103296761857/HOXaSZul_400x400.jpg'
+const Title = 'EASY ELVES'
+const supply = 3000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
