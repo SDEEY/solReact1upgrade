@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '3'
-const image = 'https://pbs.twimg.com/profile_images/1644263879403241473/uUKuezfx_400x400.jpg'
-const Title = 'Armour'
-const supply = 3000
+const solAmount = '1'
+const image = 'https://pbs.twimg.com/profile_images/1640892711686504449/mwv8Zvfg_400x400.jpg'
+const Title = 'The DATS NFT'
+const supply = 1000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
