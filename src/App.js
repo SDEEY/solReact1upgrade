@@ -6,9 +6,9 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0/0.5/1'
-const image = 'https://pbs.twimg.com/profile_images/1578408103296761857/HOXaSZul_400x400.jpg'
-const Title = 'EASY ELVES'
+const solAmount = '3'
+const image = 'https://pbs.twimg.com/profile_images/1644263879403241473/uUKuezfx_400x400.jpg'
+const Title = 'Armour'
 const supply = 3000
 
 document.title = Title
