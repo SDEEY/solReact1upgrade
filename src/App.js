@@ -6,9 +6,9 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1'
-const image = 'https://pbs.twimg.com/profile_images/1640892711686504449/mwv8Zvfg_400x400.jpg'
-const Title = 'The DATS NFT'
+const solAmount = '0.8'
+const image = 'https://pbs.twimg.com/profile_images/1651270108386410519/0LGapLxF_400x400.jpg'
+const Title = 'Divine Legends NFT'
 const supply = 1000
 
 document.title = Title
