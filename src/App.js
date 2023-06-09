@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '3'
-const image = 'https://pbs.twimg.com/profile_images/1620227019412733952/xUUD5R69_400x400.png'
-const Title = 'Shy Ones'
-const supply = 1671
+const solAmount = '0'
+const image = 'https://pbs.twimg.com/profile_images/1626635806977687581/ND6CtCYY_400x400.jpg'
+const Title = 'Home X'
+const supply = 3333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
