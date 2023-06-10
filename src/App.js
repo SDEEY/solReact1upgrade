@@ -7,9 +7,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1663132672372211716/0oLq-3A0_400x400.jpg'
-const Title = 'NAPE'
-const supply = 99
+const image = 'https://pbs.twimg.com/profile_images/1666400859993915392/Ad0OsevQ_400x400.jpg'
+const Title = 'Lads Bears'
+const supply = 40
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
