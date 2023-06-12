@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1.99'
-const image = 'https://twitter.com/TropolisClub/photo'
-const Title = 'Tropolis Club'
-const supply = 2138
+const solAmount = '2.5'
+const image = 'https://twitter.com/BigCatsofSOL/photo'
+const Title = 'Big Cats NFT'
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
