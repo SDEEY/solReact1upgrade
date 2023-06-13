@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '2.75/4.2/4.69/5'
-const image = 'https://pbs.twimg.com/profile_images/1643791855937638400/8rp6z2UL_400x400.png'
-const Title = 'cllctv.'
-const supply = 171
+const solAmount = '0.11'
+const image = 'https://pbs.twimg.com/profile_images/1666770384102752264/hSCaDy5z_400x400.jpg'
+const Title = 'ɢᴏᴅꜱ ᴡᴀʀʀɪᴏʀꜱ'
+const supply = 333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
