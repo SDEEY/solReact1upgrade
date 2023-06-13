@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.11'
-const image = 'https://pbs.twimg.com/profile_images/1666770384102752264/hSCaDy5z_400x400.jpg'
-const Title = 'ɢᴏᴅꜱ ᴡᴀʀʀɪᴏʀꜱ'
-const supply = 333
+const solAmount = ' 0/1.3/1.68/1.98'
+const image = 'https://pbs.twimg.com/profile_images/1598296910347046912/PXr72TqD_400x400.jpg'
+const Title = 'Crypto Farm'
+const supply = 4771
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
