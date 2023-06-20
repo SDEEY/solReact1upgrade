@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.79/0.95'
-const image = 'https://pbs.twimg.com/profile_images/1645037454645243906/hP8FLVPP_400x400.jpg'
-const Title = 'Saiko Samurai'
-const supply = 191
+const solAmount = '1/1.4'
+const image = 'https://pbs.twimg.com/profile_images/1645981766451363841/fPs4H-NL_400x400.jpg'
+const Title = 'Foxbyte'
+const supply = 591
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
