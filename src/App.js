@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.15'
-const image = 'https://pbs.twimg.com/profile_images/1667072783795322881/64avHhYl_400x400.jpg'
-const Title = 'Degen Pilots'
-const supply = 77
+const solAmount = '1.8'
+const image = 'https://pbs.twimg.com/profile_images/1669742837070438400/N7BmaDG3_400x400.jpg'
+const Title = 'Cosmonauts'
+const supply = 33
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
