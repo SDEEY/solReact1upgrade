@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '20'
-const image = 'https://pbs.twimg.com/profile_images/1625147738152136704/O8oQmaTY_400x400.jpg'
-const Title = 'SolanaMonkeyBusiness '
-const supply = 4000
+const solAmount = '1.25'
+const image = 'https://pbs.twimg.com/profile_images/1650563711508045834/PZcl_6qv_400x400.jpg'
+const Title = 'THE MIDAS ALCHEMISTS'
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
