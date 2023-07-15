@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.3'
-const image = 'https://pbs.twimg.com/profile_images/1663468008763953153/pJVm2dMD_400x400.jpg'
-const Title = 'Epoch'
-const supply = 1971
+const solAmount = '0.5'
+const image = 'https://pbs.twimg.com/profile_images/1668674632730415105/txMJWHwz_400x400.jpg'
+const Title = 'Fove Club'
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
