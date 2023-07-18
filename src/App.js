@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '1'
-const image = 'https://images-ext-1.discordapp.net/external/_zOKbF9bGoCc32w4nxMJ1qJPhr3KgvpzMEAuE1t6V0o/%3Falt%3Dmedia%26token%3Dac93a456-e5e8-4e1d-aa29-6fd5b78049fb/https/firebasestorage.googleapis.com/v0/b/launch-my-nft.appspot.com/o/Users%252F6RJHrbLM4DRGvWvhj2YGCdaArqJ22LKq3xC7k2Wct5Cu%252FCollections%252FuLgL129DBJuiGxMDu6An%252Fcover?width=586&height=586'
-const Title = 'THE DEGEN CIRCLE'
-const supply = 100
+const solAmount = '3'
+const image = 'https://pbs.twimg.com/profile_images/1664306173548396544/Kw-qA8sJ_400x400.jpg'
+const Title = 'Nuggies'
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
