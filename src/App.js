@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.09/0.14'
-const image = 'https://pbs.twimg.com/profile_images/1674168160759447555/Cx8IwcCH_400x400.jpg'
-const Title = 'Mousies'
-const supply = 1971
+const solAmount = '3/4/4.5/5'
+const image = 'https://pbs.twimg.com/profile_images/1680587144308441090/q1Z33X8l_400x400.jpg'
+const Title = 'FomoFrankie.com'
+const supply = 671
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
