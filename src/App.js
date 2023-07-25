@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.19/0.35'
-const image = 'https://pbs.twimg.com/profile_images/1678045937061490689/Z13anMMa_400x400.jpg'
-const Title = 'BF Murderer'
-const supply = 71
+const solAmount = '1.5/1.55/1.6'
+const image = 'https://pbs.twimg.com/profile_images/1666191377825144835/kRDoQET6_400x400.jpg'
+const Title = 'Morts'
+const supply = 1971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
