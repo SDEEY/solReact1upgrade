@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '3.7/4.2'
-const image = 'https://pbs.twimg.com/profile_images/1633194673031335938/ar1b42Y6_400x400.jpg'
-const Title = 'Groovy Republic'
-const supply = 371
+const solAmount = '0.25/0.28/0.33'
+const image = 'https://pbs.twimg.com/profile_images/1660598070021873666/LhPyRH22_400x400.jpg'
+const Title = 'BroHalla'
+const supply = 997
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
