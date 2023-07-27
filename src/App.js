@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.8/1/1.25'
-const image = 'https://pbs.twimg.com/media/F16u8pRWYAAl9xB?format=jpg&name=4096x4096'
-const Title = 'DeFi Tribe'
-const supply = 971
+const solAmount = '3$ in sol'
+const image = 'https://pbs.twimg.com/profile_images/1587570847069491204/-lWYaZ4i_400x400.jpg'
+const Title = 'Road to 100mph'
+const supply = 211
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
