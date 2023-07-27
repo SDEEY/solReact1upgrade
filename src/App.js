@@ -9,7 +9,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const solAmount = '4.2'
 const image = 'https://pbs.twimg.com/profile_images/1634228127218950145/WXvv6auI_400x400.png'
 const Title = 'Divvy.Bet'
-const supply = 2500
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
