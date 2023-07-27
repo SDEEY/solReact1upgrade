@@ -6,9 +6,9 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '4.2'
-const image = 'https://pbs.twimg.com/profile_images/1634228127218950145/WXvv6auI_400x400.png'
-const Title = 'Divvy.Bet'
+const solAmount = '0.8/1/1.25'
+const image = 'https://pbs.twimg.com/media/F16u8pRWYAAl9xB?format=jpg&name=4096x4096'
+const Title = 'DeFi Tribe'
 const supply = 971
 
 document.title = Title
