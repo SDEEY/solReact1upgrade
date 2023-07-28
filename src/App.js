@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '3$ in sol'
-const image = 'https://pbs.twimg.com/profile_images/1587570847069491204/-lWYaZ4i_400x400.jpg'
-const Title = 'Road to 100mph'
-const supply = 211
+const solAmount = '1'
+const image = 'https://pbs.twimg.com/profile_images/1670994318201434115/w3z3k5sY_400x400.jpg'
+const Title = 'FRNDS'
+const supply = 1971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
