@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0/1/2$ in Sol'
-const image = 'https://pbs.twimg.com/profile_images/1686402816376500224/gnITj24J_400x400.jpg'
-const Title = 'Rebirth of Pepe'
-const supply = 971
+const solAmount = '3'
+const image = 'https://pbs.twimg.com/profile_images/1658952680180715520/rxIxBTc-_400x400.jpg'
+const Title = 'Treedom Tribals'
+const supply = 4200
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
