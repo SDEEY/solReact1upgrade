@@ -9,7 +9,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const solAmount = '3'
 const image = 'https://pbs.twimg.com/profile_images/1658952680180715520/rxIxBTc-_400x400.jpg'
 const Title = 'Treedom Tribals'
-const supply = 4200
+const supply = 1971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
