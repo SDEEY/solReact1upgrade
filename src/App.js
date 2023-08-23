@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.75/1'
-const image = 'https://pbs.twimg.com/profile_images/1675329650824806403/yvaUgvEz_400x400.jpg'
-const Title = 'Pixel Otters'
-const supply = 471
+const solAmount = '0.05'
+const image = 'https://pbs.twimg.com/profile_images/1689541044361125888/KZs8AY1v_400x400.jpg'
+const Title = 'Death & Pixels'
+const supply = 666
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
