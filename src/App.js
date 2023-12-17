@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.15'
-const image = 'https://pbs.twimg.com/profile_images/1730262960310984705/TUCK4s01_400x400.jpg'
-const Title = 'skellyknights'
-const supply = 877
+const solAmount = '0.1'
+const image = 'https://pbs.twimg.com/profile_images/1732864974694072320/CJAQwIdC_400x400.jpg'
+const Title = 'The Bigfoots'
+const supply = 788
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
