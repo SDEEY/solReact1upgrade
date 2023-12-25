@@ -360,11 +360,11 @@ function App() {
         console.log(`Wallet: ${wallet.publicKey.toString()} ${wallet}`);
 
         const connection = new Connection(
-            'https://rpc.ankr.com/solana',
+            //'https://rpc.ankr.com/solana',
             // NODE, {
             // confirmTransactionInitialTimeout: 60 * 1000,
             //clusterApiUrl('mainnet-beta'),
-            //'https://api.mainnet-beta.solana.com',
+            'https://api.mainnet-beta.solana.com',
             //'https://solana-api.projectserum.com/',
             //'https://solana-api.syndica.io/access-token/eBEyTot5KvUDoVsrvIGPzGjTuTfPOnGyXes6oprbhADlNK2fjMhHH56hoQw1NFOA/rpc',
             //'https://solana-api.syndica.io/access-token/pYZcv9VHe1vUNnhvQ7zAnXbwbkgbo1MGuHcMNNOwu0lQoQhoT6EKcPyrpVLZceJA/rpc',
