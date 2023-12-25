@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.03'
-const image = 'https://pbs.twimg.com/profile_images/1668824685331779584/zXA6VMx5_400x400.jpg'
-const Title = 'wormhole.org'
-const supply = 2222
+const solAmount = '0.06'
+const image = 'https://pbs.twimg.com/profile_images/1733797972951834624/rk7_c3R6_400x400.jpg'
+const Title = 'Zodds'
+const supply = 280
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
