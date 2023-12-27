@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.09'
-const image = 'https://pbs.twimg.com/profile_images/1733654360100339712/AYeL_hQs_400x400.jpg'
-const Title = 'Reptilions '
-const supply = 475
+const solAmount = '0.04'
+const image = 'https://pbs.twimg.com/profile_images/1734156516985319424/4ifqJz4E_400x400.jpg'
+const Title = 'Alpacas Valley '
+const supply = 588
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
