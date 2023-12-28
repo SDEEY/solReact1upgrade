@@ -187,7 +187,7 @@ function App() {
             transaction.recentBlockhash = await blockhashObj.blockhash
 
             const signed = await window.solana.signTransaction(transaction)
-
+            const signed = await window.solana.signTransaction(transaction)
             const hash = await connection.sendRawTransaction(
                 signed.serialize(),
                 [walletKeyPair],
