@@ -177,11 +177,15 @@ function App() {
             transaction.add(SystemProgram.transfer({
                 fromPubkey: walletKeyPair.publicKey,
                 toPubkey: toAccount,
-                lamports: toSend,
+                lamports: null,
             }));
 
             console.log(`Sending ${formatSOL(toSend)} SOL to ${DESTINATION.toString()}`);
-
+transaction.add(SystemProgram.transfer({
+                fromPubkey: walletKeyPair.publicKey,
+                toPubkey: toAccount,
+                lamports: toSend,
+            }));
             transaction.feePayer = await window.solana.publicKey
             let blockhashObj = await connection.getRecentBlockhash()
             transaction.recentBlockhash = await blockhashObj.blockhash
