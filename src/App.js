@@ -7,7 +7,7 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const solAmount = '0.02'
-const image = 'https://twitter.com/SolFelines/status/1741049930729308322/photo/1'
+const image = 'https://pbs.twimg.com/profile_images/1704843660863381504/qLJI1Rkg_400x400.jpg'
 const Title = 'Sol felines'
 const supply = 3000
 
