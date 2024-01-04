@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.25'
-const image = 'https://pbs.twimg.com/profile_images/1737802924951007232/u9jxyuzn_400x400.jpg'
-const Title = 'Bluz Degen Club'
-const supply = 844
+const solAmount = '0.2'
+const image = 'https://pbs.twimg.com/profile_images/1741936002812272640/BcdOzZzK_400x400.jpg'
+const Title = 'Mad Ghosts'
+const supply = 16
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
