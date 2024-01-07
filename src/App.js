@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.25'
-const image = 'https://pbs.twimg.com/profile_images/1742143254848471040/-VPCh9aM_400x400.jpg'
-const Title = 'Celestial Kids '
-const supply = 75
+const solAmount = '0.3'
+const image = 'https://pbs.twimg.com/profile_images/1730756554717069312/w_9xwqph_400x400.jpg'
+const Title = 'Otters Oasis'
+const supply = 855
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
