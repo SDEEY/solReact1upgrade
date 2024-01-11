@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1685395576425181186/NeqIH50k_400x400.jpg'
-const Title = 'Devil Puppets'
-const supply = 1469
+const solAmount = '0.125'
+const image = 'https://pbs.twimg.com/profile_images/1738241455934648320/prJVEQKf_400x400.jpg'
+const Title = 'Elders'
+const supply = 255
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
