@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.069'
-const image = 'https://pbs.twimg.com/profile_images/1739942552504324096/5mbkCwJO_400x400.jpg'
-const Title = '250 Days Of Drump'
-const supply = 250
+const solAmount = '0.2'
+const image = 'https://pbs.twimg.com/profile_images/1740032526326923264/vDdrZkAT_400x400.jpg'
+const Title = 'JUPY CATS'
+const supply = 190
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
