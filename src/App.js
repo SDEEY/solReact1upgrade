@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.12'
-const image = 'https://pbs.twimg.com/profile_images/1744794955011231744/k4f7OsGk_400x400.png'
-const Title = 'The Faceless'
-const supply = 42
+const solAmount = '0.06'
+const image = 'https://pbs.twimg.com/profile_images/1723996932035457024/LF7iAB-6_400x400.jpg'
+const Title = 'Amai Aki'
+const supply = 480
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
