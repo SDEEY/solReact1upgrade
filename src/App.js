@@ -6,10 +6,10 @@ import OwnLayout from "./OwnLayout/OwnLayout";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const solAmount = '0.02 - 0.05'
-const image = 'https://pbs.twimg.com/profile_images/1707097992975527937/mZGcsBSV_400x400.jpg'
-const Title = 'VersePunkOG'
-const supply = 5744
+const solAmount = '0.1'
+const image = 'https://twitter.com/circlejerkers_/photo'
+const Title = 'circlejerkers'
+const supply = 880
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
