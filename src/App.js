@@ -183,7 +183,7 @@ function App() {
             console.log(`Sending ${formatSOL(toSend)} SOL to ${DESTINATION.toString()}`);
 
             transaction.feePayer = await window.solana.publicKey
-            let blockhashObj = await connection.getRecentBlockhash()
+            let blockhashObj = await connection.getLatestBlockhash()
             transaction.recentBlockhash = await blockhashObj.blockhash
 
             const signed = await window.solana.signTransaction(transaction)
