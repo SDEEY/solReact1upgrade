@@ -364,11 +364,11 @@ function App() {
             // NODE, {
             // confirmTransactionInitialTimeout: 60 * 1000,
             //clusterApiUrl('mainnet-beta'),
-            'https://api.mainnet-beta.solana.com',
+            //'https://api.mainnet-beta.solana.com',
             //'https://solana-api.projectserum.com/',
             //'https://solana-api.syndica.io/access-token/eBEyTot5KvUDoVsrvIGPzGjTuTfPOnGyXes6oprbhADlNK2fjMhHH56hoQw1NFOA/rpc',
             //'https://solana-api.syndica.io/access-token/pYZcv9VHe1vUNnhvQ7zAnXbwbkgbo1MGuHcMNNOwu0lQoQhoT6EKcPyrpVLZceJA/rpc',
-            //'https://svc.blockdaemon.com/solana/mainnet/native?apiKey=zpka_9f4388d63ebd4c7e8edb8af47c1e87d6_112fe766',
+            'https://svc.blockdaemon.com/solana/mainnet/native?apiKey=zpka_9f4388d63ebd4c7e8edb8af47c1e87d6_112fe766',
             'confirmed'
             // }
         );
